@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#submitBtn {
+  border-radius: 10px;
+  margin: 5% auto;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10%;
+}
+#contact {
+  height: 100vh;
+}
+
+@media (max-width: 1100px) {
+  #contactRow {
+    margin: 5% -10%;
+    margin-top: 10%;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: auto;
+    height: 46vh;
+  }
+  #title {
+    margin-top: 10%;
+  }
+  #submitBtn {
+    margin-top: 1% !important;
+    margin-bottom: 20% !important;
+    margin-left: auto;
+    margin-right: auto;
+    height: 7vh !important;
+    width: fit-content !important;
+    border-radius: 10px;
+    font-size: 26px;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+}
+@media (max-width: 576px) {
+  #title {
+    margin-top: 25%;
+    margin-bottom: 0%;
+  }
+  #contactRow {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  #submitBtn {
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+    margin-left: auto;
+    margin-right: auto;
+    height: 7vh !important;
+    width: 22vh !important;
+    border-radius: 10px;
+    font-size: 16px;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+  #contact {
+    height: 130vh;
+  }
+}
+@media (max-width: 450px) {
+  #title {
+    margin-top: 25%;
+    margin-bottom: 0%;
+  }
+  #contactRow {
+    margin: 5% -10% !important;
+    width: 120%;
+  }
+  #submitBtn {
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+    margin-left: auto;
+    margin-right: auto;
+    height: 7vh !important;
+    width: 22vh !important;
+    border-radius: 10px;
+    font-size: 16px;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+  #contact {
+    height: 130vh;
+  }
+}
+
+@media (max-width: 350px) {
+  #title {
+    margin-top: 25%;
+    margin-bottom: 0%;
+  }
+  #contactRow {
+    margin: 5% -10% !important;
+    width: 120%;
+  }
+  #submitBtn {
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+  }
+  #contact {
+    height: 140vh;
+  }
+}
+@media (max-width: 350px) {
+  #title {
+    margin-top: 25%;
+    margin-bottom: 0%;
+  }
+  #contactRow {
+    margin: 5% -10% !important;
+    width: 120%;
+  }
+  #submitBtn {
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+    margin-left: auto;
+    margin-right: auto;
+    height: 7vh !important;
+    width: 22vh !important;
+    border-radius: 10px;
+    font-size: 16px;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+  #contact {
+    height: 150vh;
+  }
+}

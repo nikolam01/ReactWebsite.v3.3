@@ -1,0 +1,272 @@
+.swiper-container {
+  width: 500px;
+  height: 320px;
+  margin-top: 2%;
+  border-radius: 30px;
+  background-color: transparent;
+  background-color: #ffc107;
+  cursor: pointer;
+}
+.swiper-slide {
+  text-align: center;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2rem;
+  width: 100%;
+}
+#swipeImg {
+  width: 82%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  border-radius: 30px;
+}
+.swiper-container .swiper-button-prev {
+  color: red;
+}
+.swiper-container .swiper-button-next {
+  color: red;
+}
+
+.swiper-container .swiper-button-prev,
+.swiper-container .swiper-button-next {
+  background-color: transparent;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: var(--swiper-pagination-color, var(--swiper-theme-color));
+  background-color: red;
+}
+.swiper-pagination {
+  position: absolute;
+  text-align: center;
+  transition: 300ms opacity;
+  transform: translate3d(0, 0, 0);
+  background-color: #ffc107;
+  z-index: 10;
+  bottom: 0 !important;
+}
+.swiper-scrollbar {
+  display: none;
+}
+@media (max-width: 1160px) {
+  #swiper {
+    width: 100%;
+  }
+  .swiper-container {
+    width: 80%;
+    height: 50vh;
+    margin-top: 30%;
+    margin-bottom: 10%;
+    border-radius: 30px;
+    background-color: transparent;
+    background-color: #ffc107;
+  }
+  .swiper-slide {
+    text-align: center;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+  #swipeImg {
+    width: 96%;
+    height: 100%;
+    margin-top: 4%;
+    border-radius: 30px;
+  }
+}
+
+@media (max-width: 960px) {
+  #swiper {
+    width: 100%;
+  }
+  .swiper-container {
+    width: 80%;
+    height: 50vh;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 30px;
+    background-color: transparent;
+    background-color: #ffc107;
+  }
+  .swiper-slide {
+    text-align: center;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+  #swipeImg {
+    width: 94%;
+    height: 85%;
+    margin-top: 8%;
+    border-radius: 30px;
+  }
+}
+@media (max-width: 760px) {
+  #swiper {
+    width: 100%;
+  }
+  .swiper-container {
+    width: 80%;
+    height: 50vh;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    border-radius: 30px;
+    background-color: transparent;
+    background-color: #ffc107;
+  }
+  .swiper-slide {
+    text-align: center;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+  #swipeImg {
+    width: 94%;
+    height: 85%;
+    margin-top: 8%;
+    border-radius: 30px;
+  }
+}
+@media (max-width: 560px) {
+  #swiper {
+    width: 100%;
+  }
+  .swiper-container {
+    width: 80%;
+    height: 50vh;
+    margin-top: 30%;
+    margin-bottom: 16%;
+    border-radius: 30px;
+    background-color: transparent;
+    background-color: #ffc107;
+  }
+  .swiper-slide {
+    text-align: center;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+  #swipeImg {
+    width: 94%;
+    height: 85%;
+    margin-top: 8%;
+    border-radius: 30px;
+  }
+}
+@media (max-width: 460px) {
+  #swiper {
+    width: 100%;
+  }
+  .swiper-container {
+    width: 90%;
+    height: 50vh;
+    margin-top: 30%;
+    margin-bottom: 25%;
+    border-radius: 30px;
+    background-color: transparent;
+    background-color: #ffc107;
+  }
+  .swiper-slide {
+    text-align: center;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+  #swipeImg {
+    width: 98%;
+    height: 72%;
+    margin-top: 15%;
+    border-radius: 30px;
+  }
+}
+
+@media (max-width: 360px) {
+  #swiper {
+    width: 100%;
+  }
+  .swiper-container {
+    width: 80%;
+    height: 50vh;
+    margin-top: 30%;
+    margin-bottom: 12%;
+    border-radius: 30px;
+    background-color: transparent;
+    background-color: #ffc107;
+  }
+  .swiper-slide {
+    text-align: center;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+  #swipeImg {
+    width: 94%;
+    height: 85%;
+    margin-top: 8%;
+    border-radius: 30px;
+  }
+}
+
+@media (max-width: 300px) {
+  #swiper {
+    width: 100%;
+  }
+  .swiper-container {
+    width: 98%;
+    height: 50vh;
+    margin-top: 30%;
+    margin-bottom: 12%;
+    border-radius: 30px;
+    background-color: transparent;
+    background-color: #ffc107;
+  }
+  .swiper-slide {
+    text-align: center;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+  #swipeImg {
+    width: 94%;
+    height: 90%;
+    margin-top: 8%;
+    border-radius: 30px;
+  }
+}

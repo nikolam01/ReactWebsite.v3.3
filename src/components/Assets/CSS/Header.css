@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#btnTell {
+  border-radius: 10px;
+  height: 7vh;
+  width: 23vh;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+}
+
+#titleHeader {
+  text-shadow: 8px -8px 10px rgba(255, 255, 255, 0.07),
+    -30px 30px 30px rgba(0, 0, 0, 0.2), -10px 10px 10px rgba(0, 0, 0, 0.35);
+  margin-top: 0%;
+}
+#subtitleHeader {
+  text-shadow: 8px -8px 10px rgba(255, 255, 255, 0.07),
+    -30px 30px 30px rgba(0, 0, 0, 0.2), -10px 10px 10px rgba(0, 0, 0, 0.35);
+  margin-bottom: 7%;
+}
+#headerImg {
+  height: 100vh;
+}
+@media (max-width: 580px) {
+  #titleHeader {
+    margin-bottom: 15% !important;
+  }
+  #subtitleHeader {
+    margin-bottom: 30% !important;
+  }
+  #btnTell {
+    margin-bottom: 10% !important;
+    margin-left: auto;
+    margin-right: auto;
+    height: 7vh !important;
+    width: 25vh !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1%;
+    margin-top: 20% !important;
+  }
+  header {
+    margin: 3% 0% !important;
+  }
+  #headerImg {
+    height: 100vh;
+  }
+}
+@media (max-width: 480px) {
+  #titleHeader {
+    margin-bottom: 20% !important;
+  }
+  #subtitleHeader {
+    margin-bottom: 35% !important;
+    font-size: 45px;
+  }
+  #btnTell {
+    margin-top: 10% !important;
+    margin-bottom: 15% !important;
+    font-size: 18px !important;
+    padding: 20px;
+    padding: 1%;
+  }
+  header {
+    margin: 3% 0% !important;
+  }
+  #headerImg {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 350px) {
+  #titleHeader {
+    margin-bottom: 15% !important;
+  }
+  #subtitleHeader {
+    margin-bottom: 10% !important;
+    font-size: 40px !important;
+  }
+  #btnTell {
+    margin-top: 5% !important;
+    margin-bottom: 10% !important;
+    font-size: 16px !important;
+    padding: 15px;
+    padding: 1%;
+  }
+  header {
+    margin: 3% 0% !important;
+  }
+  #headerImg {
+    height: 100vh;
+  }
+}

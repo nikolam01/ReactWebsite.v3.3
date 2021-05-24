@@ -1,0 +1,14 @@
+footer {
+  height: fit-content;
+}
+@media (max-width: 960px) {
+  footer {
+    height: fit-content;
+  }
+}
+
+@media (max-width: 560px) {
+  footer {
+    height: fit-content;
+  }
+}
