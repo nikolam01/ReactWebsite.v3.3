@@ -32,7 +32,7 @@ class App extends Component {
     this.callAPI();
   }
   authenticate() {
-    return new Promise((resolve) => setTimeout(resolve, 800)); // 800 ms
+    return new Promise((resolve) => setTimeout(resolve, 1100)); // 1100 ms
   }
 
   componentDidMount() {

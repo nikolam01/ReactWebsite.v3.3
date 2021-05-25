@@ -6,11 +6,7 @@ class PortfolioItem extends Component {
     return (
       <div className="col-lg-4 col-sm-6 mb-4">
         <div className="portfolio-item">
-          <Link
-            className="portfolio-link"
-            data-toggle="modal"
-            to="#portfolioModal1"
-          >
+          <Link className="portfolio-link" data-toggle="modal">
             <div className="portfolio-hover">
               <div className="portfolio-hover-content">
                 <i className="fas fa-i fa-3x"></i>
@@ -18,9 +14,11 @@ class PortfolioItem extends Component {
             </div>
             <img
               className="img-fluid"
+              id="imgPortfolio"
               src={this.props.image}
               alt=""
-              onClick={this.props.link}
+              style={{ cursor: "pointer" }}
+              herf={this.props.link}
             />
           </Link>
           <div className="portfolio-caption">

@@ -16,7 +16,12 @@ const portfolio = [
     image: img1,
     link: "https//:www.google.com",
   },
-  { title: "Explore", subtitle: "Photography", image: img2 },
+  {
+    title: "Explore",
+    subtitle: "Photography",
+    image: img2,
+    link: "https://www.instagram.com/photosdale/",
+  },
   { title: "Creativity", subtitle: "Graphic Design", image: img3 },
   { title: "Advertising", subtitle: "Digital Markteing", image: img4 },
   { title: "Style", subtitle: "Web Development", image: img5 },

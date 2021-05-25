@@ -6,38 +6,38 @@ const services = [
   {
     title: "Web development",
     description:
-      "Creating websites for your company/personal use. Responsive web design and speed are guaranteed.",
+      "Creating websites for your company/personal use. Responsive web design and speed are guaranteed",
     icon: "fa-laptop",
   },
   {
     title: "E-commerce",
     description:
-      "Online stores for commercial and representive use, via platform Shopify.",
+      "Online stores for commercial and representive use, via platform Shopify",
     icon: "fa-shopping-cart",
   },
   {
     title: "Web-security",
     description:
-      "Checking and testing your websites/applications security - Q/A testing.",
+      "Checking and testing your websites/applications security - Q/A testing",
     icon: "fa-lock",
   },
   {
     title: "Digital Marketing",
     description:
-      "Creating websites for your company/personal use. Responsive web design and speed are guaranteed.",
+      "Scaling reach of your website/company using SEO methodology, Backlinks, and Google Ads",
     icon: "fa-globe",
-  },
-  {
-    title: "Management and Organization",
-    description:
-      "Online stores for commercial and representive use, via platform Shopify.",
-    icon: "fa-tasks",
   },
   {
     title: "Project Management",
     description:
-      "Checking and testing your websites/applications security - Q/A testing.",
+      "Initiating, planning, executing, monitoring, controlling and closing projects",
     icon: "fa-project-diagram",
+  },
+  {
+    title: "Q/A Testing",
+    description:
+      "Ensuring that your product is of the highest possible quality for your customers. ",
+    icon: "fa-tasks",
   },
 ];
 
