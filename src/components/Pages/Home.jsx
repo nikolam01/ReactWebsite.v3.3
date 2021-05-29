@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "../Common/Header";
-import image from "../Assets/img/background.jpg";
+//import image from "../Assets/img/background.jpg";
+import image2 from "../Assets/img/background.webp";
 
 //Reusable components
 import Services from "../Common/Services";
@@ -31,7 +32,7 @@ class Home extends Component {
           buttonText="Tell me more"
           link="/me"
           showButton={true}
-          image={image}
+          image={image2}
         />
         <Services />
         <Portfolio />
