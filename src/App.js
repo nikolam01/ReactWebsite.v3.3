@@ -14,7 +14,7 @@ import Form from "./components/Common/Form";
 //Pages
 import Home from "./components/Pages/Home";
 import About from "./components/Pages/About";
-//import Contact from "./components/Pages/Contact";
+import Contact from "./components/Pages/Contact";
 import Login from "./components/Pages/Login";
 import Me from "./components/Pages/Me";
 import Swipe from "./components/Common/Swipe";
@@ -80,6 +80,15 @@ class App extends Component {
         />
         <Route
           path="/contact"
+          render={(props) => (
+            <PageWrapper>
+              <Contact {...props} />
+              <Footer {...props} />
+            </PageWrapper>
+          )}
+        />
+        <Route
+          path="/form"
           render={(props) => (
             <PageWrapper>
               <Form />
