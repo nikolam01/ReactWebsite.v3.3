@@ -24,6 +24,7 @@ function CV() {
     })
     .catch((error) => {});*/
   //for button to download file
+
   return (
     <div className="sectionCV">
       <div className="cv">
@@ -840,9 +841,10 @@ function CV() {
           </span>
         </p>
       </div>
+
       <Link
         id="downloadBtn"
-        to="C:\Users\nikol\OneDrive\Desktop\ReactApp\src\components\Assets\Docs\Executive Cv.pdf"
+        to="../Assets/Docs/NikolaMirilo.pdf"
         target="_blank"
         download
       >

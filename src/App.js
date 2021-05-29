@@ -9,6 +9,7 @@ import Services from "./components/Common/Services";
 import Footer from "./components/Common/Footer";
 import Projects from "./components/Common/Projects";
 import CV from "./components/Common/CV";
+import Form from "./components/Common/Form";
 
 //Pages
 import Home from "./components/Pages/Home";
@@ -32,7 +33,7 @@ class App extends Component {
     this.callAPI();
   }
   authenticate() {
-    return new Promise((resolve) => setTimeout(resolve, 1100)); // 1100 ms
+    return new Promise((resolve) => setTimeout(resolve, 1500)); // 1500 ms
   }
 
   componentDidMount() {
@@ -81,8 +82,7 @@ class App extends Component {
           path="/contact"
           render={(props) => (
             <PageWrapper>
-              <Contact {...props} />
-              <Footer {...props} />
+              <Form />
             </PageWrapper>
           )}
         />

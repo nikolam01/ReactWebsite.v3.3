@@ -32,6 +32,9 @@
 .downloadBtn:focus {
   outline: none !important;
 }
+.downloadBtn:hover {
+  text-decoration: none;
+}
 @media (max-width: 768px) {
   .cv {
     width: 86% !important;
