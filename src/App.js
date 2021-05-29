@@ -92,6 +92,7 @@ class App extends Component {
           render={(props) => (
             <PageWrapper>
               <Form />
+              <Footer {...props} />
             </PageWrapper>
           )}
         />
