@@ -6,6 +6,7 @@ export default function Form() {
     <div className="formNetlify">
       <form name="contact" id="formFy" method="post">
         <input type="hidden" name="form-name" value="contact" />
+        <h1>Contact Me</h1>
         <p>
           <label htmlFor="name">Name</label> <br />
           <input
