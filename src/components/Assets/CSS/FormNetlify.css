@@ -8,12 +8,13 @@
 #formFy {
   padding: 10%;
   padding-top: 8%;
+  padding-bottom: 0%;
   margin-left: 15%;
   grid-gap: 0%;
   margin-right: auto;
   width: 70%;
   display: grid;
-  grid-template-areas: "name" "email" "";
+  grid-template-areas: "name name msg" "email email msg" "";
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -239,7 +240,7 @@
     background-image: url("../img/map-image.webp");
     background-repeat: no-repeat;
     background-position: center;
-    height: 120vh;
+    height: 100vh;
   }
   #formFy #name {
     grid-area: name;
@@ -277,7 +278,8 @@
     background-color: #ffc107;
     color: white;
     font-size: 18px;
-    font-weight: 500;
+    padding: 1% 4%;
+    font-weight: 600;
     border-radius: 10px;
     margin-right: auto !important;
     margin-left: auto !important;
@@ -314,15 +316,15 @@
     background-image: url("../img/map-image.webp");
     background-repeat: no-repeat;
     background-position: center;
-    height: 130vh;
+    height: 110vh;
   }
   #formFy #message,
   #formFy #submitButton,
   #formFy #email,
   #formFy #name {
-    font-size: 16px;
+    font-size: 15px;
   }
   #formFy h1 {
-    font-size: 30px;
+    font-size: 26px;
   }
 }
