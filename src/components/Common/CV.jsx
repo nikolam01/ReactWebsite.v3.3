@@ -101,7 +101,6 @@ function CV() {
                 color: "#0070C0",
                 border: "none windowtext 1.0pt",
                 padding: "0in",
-                background: "white",
                 cursor: "pointer",
               }}
               onClick={(e) => {
@@ -175,18 +174,7 @@ function CV() {
                 fontFamily: '"Times New Roman",serif',
               }}
             >
-              Operational Management&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;10/2019 - Present &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+              Operational Management
             </span>
           </strong>
         </p>
@@ -405,17 +393,17 @@ function CV() {
                 fontFamily: '"Times New Roman",serif',
               }}
             >
-              Internet Technologies Team Member&nbsp; &nbsp; &nbsp; &nbsp;
+              Internet Technologies Team Member &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp;03/2021 – 4/2021
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp;03/2021 – 4/2021
             </span>
           </strong>
         </p>
-        <ul style={{ listStyleType: "disc" }}>
+        <ul style={{ listStyleType: "none" }}>
           <li>
             <span
               style={{
@@ -459,17 +447,17 @@ function CV() {
                 fontFamily: '"Times New Roman",serif',
               }}
             >
-              Corporate Relations Team Member&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Corporate Relations Team Member &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp;03/2021 – 4/2021
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp;03/2021 – 4/2021
             </span>
           </strong>
         </p>
-        <ul style={{ listStyleType: "disc" }}>
+        <ul style={{ listStyleType: "none" }}>
           <li>
             <span
               style={{
@@ -519,11 +507,11 @@ function CV() {
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp;12/2020 – 4/2021
+              &nbsp;12/2020 – 4/2021
             </span>
           </strong>
         </p>
-        <ul style={{ listStyleType: "disc" }}>
+        <ul style={{ listStyleType: "none" }}>
           <li>
             <span
               style={{
@@ -619,14 +607,7 @@ function CV() {
                 fontFamily: '"Times New Roman",serif',
                 color: "#0E101A",
               }}
-            >
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;10/2020 – Present
-            </span>
+            ></span>
           </strong>
         </p>
         <div
@@ -643,7 +624,7 @@ function CV() {
           <ul
             style={{
               marginBottom: "0in",
-              listStyleType: "disc",
+              listStyleType: "none",
               marginLeft: "0in",
             }}
           >
@@ -690,17 +671,11 @@ function CV() {
                 color: "#0E101A",
               }}
             >
-              Creating, and deploying personal website&nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1/2020 – 1/2021
+              Creating, and deploying personal website
             </span>
           </strong>
         </p>
-        <ul style={{ listStyleType: "disc", marginLeft: "0in" }}>
+        <ul style={{ listStyleType: "none", marginLeft: "0in" }}>
           <li>
             <span
               style={{
@@ -724,11 +699,20 @@ function CV() {
             >
               Website link:&nbsp;
             </span>
-            <u>
-              <span style={{ fontFamily: '"Times New Roman",serif' }}>
-                https://nikolamirilo.netlify.app/
-              </span>
-            </u>
+            <span
+              style={{
+                fontFamily: '"Times New Roman",serif',
+                fontSize: "14.0pt",
+                color: "#0070C0",
+                cursor: "pointer",
+              }}
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = "http://nikolamirilo.netlify.app/";
+              }}
+            >
+              https://nikolamirilo.netlify.app/
+            </span>
           </li>
         </ul>
         <div

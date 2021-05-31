@@ -37,7 +37,7 @@ export default function Form() {
           ></textarea>
         </p>
         <p>
-          <input id="submitButton" type="submit" value="Submit message" />
+          <input id="submitButton" type="submit" value="SUBMIT" />
         </p>
       </form>
     </div>

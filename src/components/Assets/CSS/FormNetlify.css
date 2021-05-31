@@ -52,10 +52,10 @@
   margin-right: auto;
   width: fit-content;
   background-color: #ffc107;
-  padding: 1%;
+  padding: 1% 2%;
   color: white;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: 10px;
   margin-right: auto !important;
   margin-left: auto !important;
@@ -69,7 +69,7 @@
 
 #formFy #submitButton:active {
   transition: all 1s ease in;
-  background-color: #fed136;
+  background-color: #ffc107;
 }
 #formFy label {
   color: white;
@@ -132,7 +132,6 @@
     margin-right: auto;
     width: fit-content;
     background-color: #ffc107;
-    padding: 1%;
     color: white;
     font-size: 18px;
     font-weight: 500;
@@ -201,7 +200,6 @@
     margin-right: auto;
     width: fit-content;
     background-color: #ffc107;
-    padding: 1%;
     color: white;
     font-size: 18px;
     font-weight: 500;
@@ -235,6 +233,13 @@
     width: 100%;
     display: grid;
     grid-template-areas: "name" "email" "";
+  }
+  .formNetlify {
+    background-color: rgb(14, 13, 13);
+    background-image: url("../img/map-image.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
   }
   #formFy #name {
     grid-area: name;
@@ -270,7 +275,6 @@
     margin-right: auto;
     width: fit-content;
     background-color: #ffc107;
-    padding: 1%;
     color: white;
     font-size: 18px;
     font-weight: 500;
@@ -310,7 +314,7 @@
     background-image: url("../img/map-image.webp");
     background-repeat: no-repeat;
     background-position: center;
-    height: 110vh;
+    height: 130vh;
   }
   #formFy #message,
   #formFy #submitButton,

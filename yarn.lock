@@ -1211,6 +1211,11 @@
     "mkdirp" "^1.0.4"
     "rimraf" "^3.0.2"
 
+"@pdftron/webviewer@^7.3.2":
+  "integrity" "sha512-GJJ3ErKn2gZKXcjFBg46d4u0X+60daiVu04i+AoYbA7xyocCpGIhW/cg0dZmTq0c1ITfHXvn5uG42UN3BBFWiA=="
+  "resolved" "https://registry.npmjs.org/@pdftron/webviewer/-/webviewer-7.3.2.tgz"
+  "version" "7.3.2"
+
 "@pmmmwh/react-refresh-webpack-plugin@0.4.3":
   "version" "0.4.3"
   dependencies:

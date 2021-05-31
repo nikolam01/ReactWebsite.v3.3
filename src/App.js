@@ -10,6 +10,7 @@ import Footer from "./components/Common/Footer";
 import Projects from "./components/Common/Projects";
 import CV from "./components/Common/CV";
 import Form from "./components/Common/Form";
+import CVPrototype from "./CVPrototype";
 
 //Pages
 import Home from "./components/Pages/Home";
@@ -66,6 +67,15 @@ class App extends Component {
           render={(props) => (
             <PageWrapper>
               <Home {...props} />
+            </PageWrapper>
+          )}
+        />
+        <Route
+          exact={true}
+          path="/experiment"
+          render={(props) => (
+            <PageWrapper>
+              <CVPrototype {...props} />
             </PageWrapper>
           )}
         />
