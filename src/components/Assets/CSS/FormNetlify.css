@@ -1,5 +1,5 @@
 .formNetlify {
-  background-color: #212529;
+  background-color: rgb(14, 13, 13);
   background-image: url("../img/map-image.webp");
   background-repeat: no-repeat;
   background-position: center;
@@ -7,28 +7,31 @@
 }
 #formFy {
   padding: 10%;
-  margin-left: 20%;
+  padding-top: 8%;
+  margin-left: 15%;
+  grid-gap: 0%;
   margin-right: auto;
-  width: 60%;
+  width: 70%;
   display: grid;
   grid-template-areas: "name" "email" "";
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #formFy #name {
   grid-area: name;
   width: 100%;
-  height: 6vh;
   color: black;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
-  padding: 2%;
+  padding: 1%;
   border: 3px solid #ffc107;
 }
 #formFy #email {
   grid-area: email;
   width: 100%;
-  height: 6vh;
   color: rgb(48, 45, 45);
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   padding: 1%;
   border: 3px solid #ffc107;
@@ -36,9 +39,9 @@
 #formFy #message {
   grid-area: msg;
   width: 100%;
-  height: 15vh;
+  height: 20vh;
   color: rgb(48, 45, 45);
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   padding: 1%;
   border: 3px solid #ffc107;
@@ -53,14 +56,20 @@
   color: white;
   font-size: 18px;
   font-weight: 500;
-  border-radius: 18px;
+  border-radius: 10px;
   margin-right: auto !important;
   margin-left: auto !important;
   float: center;
-  border: 3px solid black;
+  border: none;
+
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+#formFy #submitButton:active {
+  transition: all 1s ease in;
+  background-color: #fed136;
 }
 #formFy label {
   color: white;
@@ -78,29 +87,22 @@
   font-weight: 700;
   text-align: center;
 }
-
-@media (max-width: 568px) {
-  .formNetlify {
-    background-color: #212529;
-    background-image: url("../img/map-image.webp");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: fit-content;
-  }
+@media (max-width: 1200px) {
   #formFy {
-    padding-top: 20%;
-    margin-left: 2.5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 22%;
+    margin-left: 0%;
     margin-right: auto;
-    width: 95%;
+    width: 100%;
     display: grid;
     grid-template-areas: "name" "email" "";
   }
   #formFy #name {
     grid-area: name;
     width: 100%;
-    height: 6vh;
     color: black;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
     padding: 2%;
     border: 3px solid #ffc107;
@@ -108,19 +110,18 @@
   #formFy #email {
     grid-area: email;
     width: 100%;
-    height: 6vh;
     color: rgb(48, 45, 45);
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
-    padding: 1%;
+    padding: 2%;
     border: 3px solid #ffc107;
   }
   #formFy #message {
     grid-area: msg;
     width: 100%;
-    height: 15vh;
+    height: 25vh;
     color: rgb(48, 45, 45);
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
     padding: 1%;
     border: 3px solid #ffc107;
@@ -135,11 +136,10 @@
     color: white;
     font-size: 18px;
     font-weight: 500;
-    border-radius: 18px;
+    border-radius: 10px;
     margin-right: auto !important;
     margin-left: auto !important;
     float: center;
-    border: 3px solid black;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -153,5 +153,172 @@
   #formFy #email,
   #formFy #name:focus {
     outline: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #formFy {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 22%;
+    margin-left: 0%;
+    margin-right: auto;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "name" "email" "";
+  }
+  #formFy #name {
+    grid-area: name;
+    width: 100%;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 2%;
+    border: 3px solid #ffc107;
+  }
+  #formFy #email {
+    grid-area: email;
+    width: 100%;
+    color: rgb(48, 45, 45);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 2%;
+    border: 3px solid #ffc107;
+  }
+  #formFy #message {
+    grid-area: msg;
+    width: 100%;
+    height: 25vh;
+    color: rgb(48, 45, 45);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 1%;
+    border: 3px solid #ffc107;
+  }
+  #formFy #submitButton {
+    grid-area: btn;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    background-color: #ffc107;
+    padding: 1%;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    float: center;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  #formFy label {
+    color: white;
+    font-size: 18px;
+  }
+  #formFy #message,
+  #formFy #submitButton,
+  #formFy #email,
+  #formFy #name:focus {
+    outline: none;
+  }
+}
+@media (max-width: 568px) {
+  #formFy {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 22%;
+    margin-left: 0%;
+    margin-right: auto;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "name" "email" "";
+  }
+  #formFy #name {
+    grid-area: name;
+    width: 100%;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 2%;
+    border: 3px solid #ffc107;
+  }
+  #formFy #email {
+    grid-area: email;
+    width: 100%;
+    color: rgb(48, 45, 45);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 2%;
+    border: 3px solid #ffc107;
+  }
+  #formFy #message {
+    grid-area: msg;
+    width: 100%;
+    height: 25vh;
+    color: rgb(48, 45, 45);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 1%;
+    border: 3px solid #ffc107;
+  }
+  #formFy #submitButton {
+    grid-area: btn;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    background-color: #ffc107;
+    padding: 1%;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    float: center;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  #formFy label {
+    color: white;
+    font-size: 18px;
+  }
+  #formFy #message,
+  #formFy #submitButton,
+  #formFy #email,
+  #formFy #name:focus {
+    outline: none;
+  }
+}
+@media (max-width: 330px) {
+  #formFy {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 22%;
+    margin-left: 0%;
+    margin-right: auto;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "name" "email" "";
+  }
+  .formNetlify {
+    background-color: rgb(14, 13, 13);
+    background-image: url("../img/map-image.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 110vh;
+  }
+  #formFy #message,
+  #formFy #submitButton,
+  #formFy #email,
+  #formFy #name {
+    font-size: 16px;
+  }
+  #formFy h1 {
+    font-size: 30px;
   }
 }

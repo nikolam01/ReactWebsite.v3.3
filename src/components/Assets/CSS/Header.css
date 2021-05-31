@@ -27,7 +27,9 @@
 }
 #headerImg {
   height: 100vh;
+  /* box-shadow: 0px 0px 10px 0px white inset;*/
 }
+
 @media (max-width: 580px) {
   #titleHeader {
     margin-bottom: 15% !important;

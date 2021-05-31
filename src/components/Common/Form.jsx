@@ -13,6 +13,7 @@ export default function Form() {
             type="text"
             id="name"
             name="name"
+            required
             placeholder="Enter your name"
           />
         </p>

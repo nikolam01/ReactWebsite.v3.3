@@ -82,7 +82,7 @@ class App extends Component {
           path="/contact"
           render={(props) => (
             <PageWrapper>
-              <Contact {...props} />
+              <Form />
               <Footer {...props} />
             </PageWrapper>
           )}
@@ -91,7 +91,7 @@ class App extends Component {
           path="/form"
           render={(props) => (
             <PageWrapper>
-              <Form />
+              <Contact {...props} />
               <Footer {...props} />
             </PageWrapper>
           )}
