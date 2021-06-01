@@ -269,6 +269,7 @@
     font-size: 18px;
     padding: 1%;
     border: 3px solid #ffc107;
+    resize: none;
   }
   #formFy #submitButton {
     grid-area: btn;
