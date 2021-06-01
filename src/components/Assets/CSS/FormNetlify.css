@@ -240,7 +240,7 @@
     background-image: url("../img/map-image.webp");
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 150vh;
   }
   #formFy #name {
     grid-area: name;
@@ -299,6 +299,13 @@
   #formFy #name:focus {
     outline: none;
   }
+  #formFy #message,
+  #formFy #submitButton,
+  #formFy #email,
+  #formFy #name {
+    font-size: 17px;
+    border: 1px solid #ffc107;
+  }
 }
 @media (max-width: 330px) {
   #formFy {
@@ -316,13 +323,14 @@
     background-image: url("../img/map-image.webp");
     background-repeat: no-repeat;
     background-position: center;
-    height: 110vh;
+    height: 150vh;
   }
   #formFy #message,
   #formFy #submitButton,
   #formFy #email,
   #formFy #name {
     font-size: 15px;
+    border: 1px solid #ffc107;
   }
   #formFy h1 {
     font-size: 26px;
