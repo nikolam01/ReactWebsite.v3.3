@@ -1,5 +1,6 @@
 import "../Assets/CSS/CV.css";
 import { Link } from "react-router-dom";
+import DownloadLink from "react-download-link";
 
 function CV() {
   //Not sure about this
@@ -825,15 +826,12 @@ function CV() {
           </span>
         </p>
       </div>
-
-      <Link
+      <DownloadLink
         id="downloadBtn"
-        to="../Assets/Docs/NikolaMirilo.pdf"
-        target="_blank"
-        download
-      >
-        Download my CV
-      </Link>
+        label="Download my CV"
+        filename="myfile.txt"
+        exportFile={() => "My cached data"}
+      />
     </div>
   );
 }

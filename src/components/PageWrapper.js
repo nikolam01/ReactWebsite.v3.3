@@ -62,6 +62,11 @@ class PageWrapper extends Component {
                     Contact
                   </Link>
                 </li>
+                <li className="nav-item">
+                  <Link className="nav-link js-scroll-trigger" to="/cv">
+                    CV
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>

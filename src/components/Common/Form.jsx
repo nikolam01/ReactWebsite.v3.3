@@ -30,6 +30,7 @@ export default function Form() {
         <p>
           <label htmlFor="message">Message</label> <br />
           <textarea
+            className="form-control"
             id="message"
             name="message"
             required
