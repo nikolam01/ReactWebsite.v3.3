@@ -240,7 +240,7 @@
     background-image: url("../img/map-image.webp");
     background-repeat: no-repeat;
     background-position: center;
-    height: 150vh;
+    height: 130vh;
   }
   #formFy #name {
     grid-area: name;
