@@ -3,29 +3,6 @@ import { Link } from "react-router-dom";
 import DownloadLink from "react-download-link";
 
 function CV() {
-  //Not sure about this
-  /*axios({
-    method: "get",
-    url: { cv },
-    responseType: "arraybuffer",
-  })
-    .then((response) => {
-      var link = document.createElement("a");
-      link.href = window.URL.createObjectURL(
-        new Blob([response.data], { type: "application/octet-stream" })
-      );
-      link.download = "name_of_file_with_extension";
-
-      document.body.appendChild(link);
-
-      link.click();
-      setTimeout(function () {
-        window.URL.revokeObjectURL(link);
-      }, 200);
-    })
-    .catch((error) => {});*/
-  //for button to download file
-
   return (
     <div className="sectionCV">
       <div className="cv">
@@ -828,6 +805,7 @@ function CV() {
       </div>
       <DownloadLink
         id="downloadBtn"
+        className="downBtn"
         label="Download my CV"
         filename="myfile.txt"
         exportFile={() => "My cached data"}
