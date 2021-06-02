@@ -36,8 +36,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "proxy": "http://localhost:3001",
-    "preinstall": "npx npm-force-resolutions"
+    "proxy": "http://localhost:3001"
   },
   "plugins": [
     "@babel/plugin-transform-runtime"

@@ -66,7 +66,7 @@ function CV() {
             textAlign: "center",
           }}
         >
-          <a href="mailto:nikolamirilo@gmail.com">
+          <Link href="mailto:nikolamirilo@gmail.com">
             <span
               style={{
                 fontSize: "19px",
@@ -78,7 +78,7 @@ function CV() {
             >
               nikolamirilo@gmail.com
             </span>
-          </a>
+          </Link>
           <span
             style={{
               fontSize: "19px",
