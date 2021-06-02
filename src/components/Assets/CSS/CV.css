@@ -1,6 +1,11 @@
 .sectionCV {
   padding: 10%;
   background-color: white;
+  font-size: 20px;
+  width: 100% !important;
+}
+.titleNM {
+  font-size: 30px;
 }
 .cv {
   width: 80%;
@@ -63,6 +68,12 @@
 }
 @media (max-width: 1200px) {
   .sectionCV {
+    font-size: 18px;
+  }
+  .titleNM {
+    font-size: 28px;
+  }
+  .sectionCV {
     padding: 0%;
     padding-top: 10%;
   }
@@ -90,6 +101,12 @@
     padding: 0%;
     padding-top: 10%;
   }
+  .sectionCV {
+    font-size: 16px;
+  }
+  .titleNM {
+    font-size: 26px;
+  }
   .cv {
     width: 96% !important;
     margin-top: 20%;
@@ -113,11 +130,19 @@
   .sectionCV {
     padding: 0%;
     padding-top: 10%;
+    width: 100%;
+    text-align: left;
   }
   .cv {
     width: 96% !important;
     margin-top: 20%;
-    padding: 5%;
+    padding: 2%;
+  }
+  .sectionCV {
+    font-size: 16px;
+  }
+  .titleNM {
+    font-size: 22px;
   }
   .downBtn {
     padding: 2% !important;

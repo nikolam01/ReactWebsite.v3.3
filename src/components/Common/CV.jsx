@@ -14,15 +14,15 @@ function CV() {
             marginBottom: "6.0pt",
             marginLeft: "0in",
             lineHeight: "107%",
-            fontSize: "15px",
+
             fontFamily: '"Calibri",sans-serif',
             textAlign: "center",
           }}
         >
           <strong>
             <span
+              className="titleNM"
               style={{
-                fontSize: "32px",
                 lineHeight: "107%",
                 fontFamily: '"Times New Roman",serif',
               }}
@@ -38,7 +38,7 @@ function CV() {
             marginBottom: "8.0pt",
             marginLeft: "0in",
             lineHeight: "107%",
-            fontSize: "15px",
+
             fontFamily: '"Calibri",sans-serif',
             textAlign: "center",
           }}
@@ -46,7 +46,6 @@ function CV() {
           <Link href="mailto:nikolamirilo@gmail.com">
             <span
               style={{
-                fontSize: "19px",
                 lineHeight: "107%",
                 fontFamily: '"Times New Roman",serif',
                 color: "#0070C0",
@@ -58,7 +57,6 @@ function CV() {
           </Link>
           <span
             style={{
-              fontSize: "19px",
               lineHeight: "107%",
               fontFamily: '"Times New Roman",serif',
               color: "#0D0D0D",
@@ -68,7 +66,6 @@ function CV() {
           </span>
           <span
             style={{
-              fontSize: "19px",
               lineHeight: "107%",
               fontFamily: '"Times New Roman",serif',
             }}
@@ -98,7 +95,7 @@ function CV() {
             marginBottom: "8.0pt",
             marginLeft: "0in",
             lineHeight: "107%",
-            fontSize: "15px",
+
             fontFamily: '"Calibri",sans-serif',
             border: "none",
             borderBottom: "solid windowtext 1.5pt",
@@ -112,7 +109,7 @@ function CV() {
               marginBottom: "8.0pt",
               marginLeft: "0in",
               lineHeight: "107%",
-              fontSize: "15px",
+
               fontFamily: '"Calibri",sans-serif',
               textAlign: "justify",
               border: "none",
@@ -122,7 +119,6 @@ function CV() {
             <strong>
               <span
                 style={{
-                  fontSize: "21px",
                   lineHeight: "107%",
                   fontFamily: '"Times New Roman",serif',
                 }}
@@ -139,7 +135,7 @@ function CV() {
             marginBottom: "4.0pt",
             marginLeft: "0in",
             lineHeight: "107%",
-            fontSize: "15px",
+
             fontFamily: '"Calibri",sans-serif',
             textAlign: "justify",
           }}
@@ -147,7 +143,6 @@ function CV() {
           <strong>
             <span
               style={{
-                fontSize: "19px",
                 lineHeight: "107%",
                 fontFamily: '"Times New Roman",serif',
               }}
@@ -163,14 +158,13 @@ function CV() {
             marginBottom: "0in",
             marginLeft: "0in",
             lineHeight: "107%",
-            fontSize: "15px",
+
             fontFamily: '"Calibri",sans-serif',
             textAlign: "justify",
           }}
         >
           <span
             style={{
-              fontSize: "19px",
               lineHeight: "107%",
               fontFamily: '"Times New Roman",serif',
             }}
@@ -185,14 +179,13 @@ function CV() {
             marginBottom: "4.0pt",
             marginLeft: "0in",
             lineHeight: "107%",
-            fontSize: "15px",
+
             fontFamily: '"Calibri",sans-serif',
             textAlign: "justify",
           }}
         >
           <span
             style={{
-              fontSize: "19px",
               lineHeight: "107%",
               fontFamily: '"Times New Roman",serif',
             }}
@@ -207,7 +200,7 @@ function CV() {
             marginBottom: "8.0pt",
             marginLeft: "0in",
             lineHeight: "107%",
-            fontSize: "15px",
+
             fontFamily: '"Calibri",sans-serif',
             border: "none",
             borderBottom: "solid windowtext 1.5pt",
@@ -221,7 +214,7 @@ function CV() {
               marginBottom: "8.0pt",
               marginLeft: "0in",
               lineHeight: "107%",
-              fontSize: "15px",
+
               fontFamily: '"Calibri",sans-serif',
               textAlign: "justify",
               border: "none",
@@ -231,7 +224,6 @@ function CV() {
             <strong>
               <span
                 style={{
-                  fontSize: "21px",
                   lineHeight: "107%",
                   fontFamily: '"Times New Roman",serif',
                 }}
@@ -248,7 +240,7 @@ function CV() {
             marginBottom: "0in",
             marginLeft: "0in",
             lineHeight: "normal",
-            fontSize: "15px",
+
             fontFamily: '"Calibri",sans-serif',
             textAlign: "justify",
           }}
@@ -256,7 +248,6 @@ function CV() {
           <strong>
             <span
               style={{
-                fontSize: "19px",
                 fontFamily: '"Times New Roman",serif',
                 color: "#0E101A",
               }}
@@ -266,7 +257,6 @@ function CV() {
           </strong>
           <span
             style={{
-              fontSize: "19px",
               fontFamily: '"Times New Roman",serif',
               color: "#0E101A",
             }}
@@ -283,7 +273,7 @@ function CV() {
             marginBottom: "0in",
             marginLeft: "0in",
             lineHeight: "normal",
-            fontSize: "15px",
+
             fontFamily: '"Calibri",sans-serif',
             textAlign: "justify",
           }}
@@ -291,7 +281,6 @@ function CV() {
           <strong>
             <span
               style={{
-                fontSize: "19px",
                 fontFamily: '"Times New Roman",serif',
                 color: "#0E101A",
               }}
@@ -301,7 +290,6 @@ function CV() {
           </strong>
           <span
             style={{
-              fontSize: "19px",
               fontFamily: '"Times New Roman",serif',
               color: "#0E101A",
             }}
@@ -317,7 +305,7 @@ function CV() {
             marginBottom: "8.0pt",
             marginLeft: "0in",
             lineHeight: "107%",
-            fontSize: "15px",
+
             fontFamily: '"Calibri",sans-serif',
             border: "none",
             borderBottom: "solid windowtext 1.5pt",
@@ -331,7 +319,7 @@ function CV() {
               marginBottom: "8.0pt",
               marginLeft: "0in",
               lineHeight: "107%",
-              fontSize: "15px",
+
               fontFamily: '"Calibri",sans-serif',
               textAlign: "justify",
               border: "none",
@@ -341,7 +329,6 @@ function CV() {
             <strong>
               <span
                 style={{
-                  fontSize: "21px",
                   lineHeight: "107%",
                   fontFamily: '"Times New Roman",serif',
                 }}
@@ -358,7 +345,7 @@ function CV() {
             marginBottom: "6.0pt",
             marginLeft: "0in",
             lineHeight: "107%",
-            fontSize: "15px",
+
             fontFamily: '"Calibri",sans-serif',
             textAlign: "justify",
           }}
@@ -366,7 +353,6 @@ function CV() {
           <strong>
             <span
               style={{
-                fontSize: "19px",
                 lineHeight: "107%",
                 fontFamily: '"Times New Roman",serif',
               }}
@@ -376,8 +362,7 @@ function CV() {
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp;03/2021 – 4/2021
+              &nbsp; &nbsp; &nbsp; &nbsp;03/2021 – 4/2021
             </span>
           </strong>
         </p>
@@ -387,7 +372,6 @@ function CV() {
               style={{
                 lineHeight: "107%",
                 fontFamily: '"Times New Roman",serif',
-                fontSize: "19px",
               }}
             >
               Project: “Companies to Students”
@@ -398,7 +382,6 @@ function CV() {
               style={{
                 lineHeight: "107%",
                 fontFamily: '"Times New Roman",serif',
-                fontSize: "19px",
               }}
             >
               Building functional website and application for the project
@@ -412,7 +395,7 @@ function CV() {
             marginBottom: "6.0pt",
             marginLeft: "0in",
             lineHeight: "107%",
-            fontSize: "15px",
+
             fontFamily: '"Calibri",sans-serif',
             textAlign: "justify",
           }}
@@ -420,7 +403,6 @@ function CV() {
           <strong>
             <span
               style={{
-                fontSize: "19px",
                 lineHeight: "107%",
                 fontFamily: '"Times New Roman",serif',
               }}
@@ -430,8 +412,7 @@ function CV() {
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp;03/2021 – 4/2021
+              &nbsp; &nbsp; &nbsp; &nbsp;03/2021 – 4/2021
             </span>
           </strong>
         </p>
@@ -441,7 +422,6 @@ function CV() {
               style={{
                 lineHeight: "107%",
                 fontFamily: '"Times New Roman",serif',
-                fontSize: "19px",
               }}
             >
               Project: “Companies to Students”
@@ -452,7 +432,6 @@ function CV() {
               style={{
                 lineHeight: "107%",
                 fontFamily: '"Times New Roman",serif',
-                fontSize: "19px",
               }}
             >
               Searching for sponsors, and sponsorship negotiation
@@ -466,7 +445,7 @@ function CV() {
             marginBottom: "6.0pt",
             marginLeft: "0in",
             lineHeight: "107%",
-            fontSize: "15px",
+
             fontFamily: '"Calibri",sans-serif',
             textAlign: "justify",
           }}
@@ -474,7 +453,6 @@ function CV() {
           <strong>
             <span
               style={{
-                fontSize: "19px",
                 lineHeight: "107%",
                 fontFamily: '"Times New Roman",serif',
               }}
@@ -484,8 +462,7 @@ function CV() {
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp;12/2020 – 4/2021
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;12/2020 – 4/2021
             </span>
           </strong>
         </p>
@@ -495,7 +472,6 @@ function CV() {
               style={{
                 lineHeight: "107%",
                 fontFamily: '"Times New Roman",serif',
-                fontSize: "19px",
               }}
             >
               Project: “FON Hackathon and High School Hackathon”
@@ -506,7 +482,6 @@ function CV() {
               style={{
                 lineHeight: "107%",
                 fontFamily: '"Times New Roman",serif',
-                fontSize: "19px",
               }}
             >
               Searching, and inviting professors, and assistants to participate
@@ -521,7 +496,7 @@ function CV() {
             marginBottom: "8.0pt",
             marginLeft: "0in",
             lineHeight: "107%",
-            fontSize: "15px",
+
             fontFamily: '"Calibri",sans-serif',
             border: "none",
             borderBottom: "solid windowtext 1.5pt",
@@ -535,7 +510,7 @@ function CV() {
               marginBottom: "8.0pt",
               marginLeft: "0in",
               lineHeight: "107%",
-              fontSize: "15px",
+
               fontFamily: '"Calibri",sans-serif',
               textAlign: "justify",
               border: "none",
@@ -545,7 +520,6 @@ function CV() {
             <strong>
               <span
                 style={{
-                  fontSize: "21px",
                   lineHeight: "107%",
                   fontFamily: '"Times New Roman",serif',
                 }}
@@ -562,7 +536,7 @@ function CV() {
             marginBottom: "6.0pt",
             marginLeft: "0in",
             lineHeight: "normal",
-            fontSize: "15px",
+
             fontFamily: '"Calibri",sans-serif',
             textAlign: "justify",
           }}
@@ -570,7 +544,6 @@ function CV() {
           <strong>
             <span
               style={{
-                fontSize: "19px",
                 fontFamily: '"Times New Roman",serif',
                 color: "#0D0D0D",
               }}
@@ -581,7 +554,6 @@ function CV() {
           <strong>
             <span
               style={{
-                fontSize: "19px",
                 fontFamily: '"Times New Roman",serif',
                 color: "#0E101A",
               }}
@@ -595,7 +567,7 @@ function CV() {
             marginBottom: "8.0pt",
             marginLeft: "0in",
             lineHeight: "107%",
-            fontSize: "15px",
+
             fontFamily: '"Calibri",sans-serif',
           }}
         >
@@ -613,14 +585,13 @@ function CV() {
                 marginBottom: "8.0pt",
                 marginLeft: "0in",
                 lineHeight: "107%",
-                fontSize: "15px",
+
                 fontFamily: '"Calibri",sans-serif',
               }}
             >
               <span
                 style={{
                   fontFamily: '"Times New Roman",serif',
-                  fontSize: "19px",
                 }}
               >
                 Working on the intern and extern projects, and learning multiple
@@ -636,7 +607,7 @@ function CV() {
             marginBottom: "4.0pt",
             marginLeft: "0in",
             lineHeight: "normal",
-            fontSize: "15px",
+
             fontFamily: '"Calibri",sans-serif',
             textAlign: "justify",
           }}
@@ -644,7 +615,6 @@ function CV() {
           <strong>
             <span
               style={{
-                fontSize: "19px",
                 fontFamily: '"Times New Roman",serif',
                 color: "#0E101A",
               }}
@@ -658,7 +628,6 @@ function CV() {
             <span
               style={{
                 fontFamily: '"Times New Roman",serif',
-                fontSize: "14.0pt",
                 color: "#0E101A",
               }}
             >
@@ -671,7 +640,6 @@ function CV() {
             <span
               style={{
                 fontFamily: '"Times New Roman",serif',
-                fontSize: "14.0pt",
                 color: "#0E101A",
               }}
             >
@@ -680,7 +648,6 @@ function CV() {
             <span
               style={{
                 fontFamily: '"Times New Roman",serif',
-                fontSize: "14.0pt",
                 color: "#0070C0",
                 cursor: "pointer",
               }}
@@ -700,7 +667,7 @@ function CV() {
             marginBottom: "8.0pt",
             marginLeft: "0in",
             lineHeight: "107%",
-            fontSize: "15px",
+
             fontFamily: '"Calibri",sans-serif',
             border: "none",
             borderBottom: "solid windowtext 1.5pt",
@@ -714,7 +681,6 @@ function CV() {
               marginBottom: "8.0pt",
               marginLeft: "0in",
               lineHeight: "normal",
-              fontSize: "15px",
               fontFamily: '"Calibri",sans-serif',
               textAlign: "justify",
               border: "none",
@@ -724,7 +690,6 @@ function CV() {
             <strong>
               <span
                 style={{
-                  fontSize: "21px",
                   fontFamily: '"Times New Roman",serif',
                 }}
               >
@@ -740,7 +705,6 @@ function CV() {
             marginBottom: "0in",
             marginLeft: "0in",
             lineHeight: "normal",
-            fontSize: "15px",
             fontFamily: '"Calibri",sans-serif',
             textAlign: "justify",
           }}
@@ -748,7 +712,6 @@ function CV() {
           <strong>
             <span
               style={{
-                fontSize: "19px",
                 fontFamily: '"Times New Roman",serif',
                 color: "#0E101A",
               }}
@@ -758,7 +721,6 @@ function CV() {
           </strong>
           <span
             style={{
-              fontSize: "19px",
               fontFamily: '"Times New Roman",serif',
               color: "#0E101A",
             }}
@@ -774,7 +736,6 @@ function CV() {
             marginBottom: "0in",
             marginLeft: "0in",
             lineHeight: "normal",
-            fontSize: "15px",
             fontFamily: '"Calibri",sans-serif',
             textAlign: "justify",
           }}
@@ -782,7 +743,6 @@ function CV() {
           <strong>
             <span
               style={{
-                fontSize: "19px",
                 fontFamily: '"Times New Roman",serif',
                 color: "#0E101A",
               }}
@@ -792,7 +752,6 @@ function CV() {
           </strong>
           <span
             style={{
-              fontSize: "19px",
               fontFamily: '"Times New Roman",serif',
               color: "#0E101A",
             }}
