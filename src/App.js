@@ -34,7 +34,7 @@ class App extends Component {
     this.callAPI();
   }
   authenticate() {
-    return new Promise((resolve) => setTimeout(resolve, 1200)); // 1500 ms
+    return new Promise((resolve) => setTimeout(resolve, 1000)); // 1000 ms
   }
 
   componentDidMount() {
@@ -83,7 +83,11 @@ class App extends Component {
           path="/about"
           render={(props) => (
             <PageWrapper>
-              <About {...props} />
+              <Me {...props} />
+              <br></br>
+              <br></br>
+              <br></br>
+              <About {...props}></About>
               <Footer {...props} />
             </PageWrapper>
           )}
