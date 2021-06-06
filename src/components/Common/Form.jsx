@@ -31,8 +31,8 @@ export default function Form() {
         <p>
           <label htmlFor="message">Message</label> <br />
           <textarea
-            className="form-control"
             id="message"
+            className="form-control"
             name="message"
             required
             placeholder="Enter your message"

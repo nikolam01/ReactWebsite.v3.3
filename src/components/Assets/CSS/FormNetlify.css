@@ -3,7 +3,12 @@
   background-image: url("../img/map-image.webp");
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 #formFy {
   padding: 10%;
@@ -76,6 +81,7 @@
   float: center;
   border: none;
   display: flex;
+  margin-top: 2%;
   justify-content: space-between;
   align-items: flex-end;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -255,7 +261,7 @@
     background-image: url("../img/map-image.webp");
     background-repeat: no-repeat;
     background-position: center;
-    height: 130vh;
+    min-height: 120vh;
   }
   #formFy #name {
     grid-area: name;
