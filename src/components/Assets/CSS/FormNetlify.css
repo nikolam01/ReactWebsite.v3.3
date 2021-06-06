@@ -2,7 +2,7 @@
   background-color: rgb(14, 13, 13);
   background-image: url("../img/map-image.webp");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: cover !important;
   min-height: 100vh;
   position: absolute;
   top: 0;
