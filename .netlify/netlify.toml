@@ -1,5 +1,3 @@
 CI= npm run build
 [[plugins]]
 package = "netlify-plugin-image-optim"
-[[plugins]]
-package = "netlify-build-plugin-speedcurve"
