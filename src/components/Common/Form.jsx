@@ -1,5 +1,6 @@
 import React from "react";
 import "../Assets/CSS/FormNetlify.css";
+import "../Assets/JS/contact";
 
 export default function Form() {
   return (
