@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Assets/CSS/PageWrapper.css";
 import { Link } from "react-router-dom";
 
 class PageWrapper extends Component {

@@ -70,7 +70,7 @@
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
-  background-color: #ffc107;
+  background-color: #ffea00;
   padding: 1% 2%;
   color: white;
   font-size: 18px;
@@ -88,10 +88,13 @@
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+#formFy #submitButton:hover {
+  background-color: #f5d311 !important;
+}
 
 #formFy #submitButton:active {
   transition: all 1s ease in;
-  background-color: #ffc107;
+  background-color: #ffea00;
 }
 #formFy label {
   color: white;
@@ -156,7 +159,7 @@
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
-    background-color: #ffc107;
+    background-color: #ffea00;
     color: white;
     font-size: 18px;
     font-weight: 500;
@@ -221,7 +224,7 @@
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
-    background-color: #ffc107;
+    background-color: #ffea00;
     color: white;
     font-size: 18px;
     font-weight: 500;
@@ -290,13 +293,14 @@
   }
   #formFy #submitButton {
     grid-area: btn;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
-    background-color: #ffc107;
+    background-color: #ffea00;
     color: white;
-    font-size: 18px;
-    padding: 1% 4%;
+    font-size: 20px !important;
+    padding: 1% 5%;
     font-weight: 600;
     border-radius: 10px;
     margin-right: auto !important;

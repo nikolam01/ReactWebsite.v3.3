@@ -34,6 +34,7 @@ export default function Form() {
             id="message"
             className="form-control"
             name="message"
+            resize="false"
             required
             placeholder="Enter your message"
           ></textarea>

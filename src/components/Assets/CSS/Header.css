@@ -5,14 +5,19 @@
 }
 #btnTell {
   border-radius: 10px;
-  height: 7vh;
-  width: 23vh;
-  padding: 1%;
+  height: fit-content;
+  width: fit-content;
+  padding: 1% 1%;
   display: flex;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
   flex-direction: column;
+  background-color: #ffea00;
+  font-size: 18px !important;
+}
+#btnTell:hover {
+  background-color: #f5d311 !important;
 }
 
 #titleHeader {
@@ -60,10 +65,11 @@
 }
 @media (max-width: 480px) {
   #titleHeader {
-    margin-bottom: 20% !important;
+    margin-bottom: 25% !important;
+    margin-top: 5%;
   }
   #subtitleHeader {
-    margin-bottom: 35% !important;
+    margin-bottom: 30% !important;
     font-size: 45px;
   }
   #btnTell {
