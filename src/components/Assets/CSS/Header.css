@@ -13,11 +13,11 @@
   margin-left: auto;
   margin-right: auto;
   flex-direction: column;
-  background-color: #ffea00 !important;
+  background-color: #ffc107 !important;
   font-size: 18px !important;
 }
 #btnTell:hover {
-  background-color: #ffea00 !important;
+  background-color: #f5d311 !important;
 }
 
 #titleHeader {
@@ -55,7 +55,7 @@
     border-radius: 10px;
     padding: 1%;
     margin-top: 20% !important;
-    background-color: #ffea00 !important;
+    background-color: #ffc107 !important;
   }
   header {
     margin: 3% 0% !important;
@@ -87,7 +87,7 @@
     height: 100vh;
   }
   #btnTell {
-    background-color: #ffea00 !important;
+    background-color: #ffc107 !important;
   }
 }
 
@@ -105,7 +105,7 @@
     font-size: 16px !important;
     padding: 15px;
     padding: 1%;
-    background-color: #ffea00 !important;
+    background-color: #ffc107 !important;
   }
   header {
     margin: 3% 0% !important;
