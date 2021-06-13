@@ -4,7 +4,7 @@
   margin-top: 2%;
   border-radius: 30px;
   background-color: transparent;
-  background-color: #ffea00;
+  background-color: #ffc107;
   cursor: pointer;
 }
 .swiper-slide {
@@ -43,7 +43,7 @@
   text-align: center;
   transition: 300ms opacity;
   transform: translate3d(0, 0, 0);
-  background-color: #ffea00;
+  background-color: #ffc107;
   z-index: 10;
   bottom: 0 !important;
 }
@@ -61,7 +61,7 @@
     margin-bottom: 10%;
     border-radius: 30px;
     background-color: transparent;
-    background-color: #ffea00;
+    background-color: #ffc107;
   }
   .swiper-slide {
     text-align: center;
@@ -93,7 +93,7 @@
     margin-bottom: 10%;
     border-radius: 30px;
     background-color: transparent;
-    background-color: #ffea00;
+    background-color: #ffc107;
   }
   .swiper-slide {
     text-align: center;
@@ -124,7 +124,7 @@
     margin-bottom: 10%;
     border-radius: 30px;
     background-color: transparent;
-    background-color: #ffea00;
+    background-color: #ffc107;
   }
   .swiper-slide {
     text-align: center;
@@ -155,7 +155,7 @@
     margin-bottom: 16%;
     border-radius: 30px;
     background-color: transparent;
-    background-color: #ffea00;
+    background-color: #ffc107;
   }
   .swiper-slide {
     text-align: center;
@@ -186,7 +186,7 @@
     margin-bottom: 25%;
     border-radius: 30px;
     background-color: transparent;
-    background-color: #ffea00;
+    background-color: #ffc107;
   }
   .swiper-slide {
     text-align: center;
@@ -218,7 +218,7 @@
     margin-bottom: 12%;
     border-radius: 30px;
     background-color: transparent;
-    background-color: #ffea00;
+    background-color: #ffc107;
   }
   .swiper-slide {
     text-align: center;
@@ -250,7 +250,7 @@
     margin-bottom: 12%;
     border-radius: 30px;
     background-color: transparent;
-    background-color: #ffea00;
+    background-color: #ffc107;
   }
   .swiper-slide {
     text-align: center;

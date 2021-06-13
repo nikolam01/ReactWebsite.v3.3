@@ -13,11 +13,11 @@
   margin-left: auto;
   margin-right: auto;
   flex-direction: column;
-  background-color: #ffea00;
+  background-color: #ffea00 !important;
   font-size: 18px !important;
 }
 #btnTell:hover {
-  background-color: #f5d311 !important;
+  background-color: #ffea00 !important;
 }
 
 #titleHeader {
@@ -55,6 +55,7 @@
     border-radius: 10px;
     padding: 1%;
     margin-top: 20% !important;
+    background-color: #ffea00 !important;
   }
   header {
     margin: 3% 0% !important;
@@ -66,10 +67,10 @@
 @media (max-width: 480px) {
   #titleHeader {
     margin-bottom: 25% !important;
-    margin-top: 5%;
+    margin-top: 0%;
   }
   #subtitleHeader {
-    margin-bottom: 30% !important;
+    margin-bottom: 28% !important;
     font-size: 45px;
   }
   #btnTell {
@@ -84,6 +85,9 @@
   }
   #headerImg {
     height: 100vh;
+  }
+  #btnTell {
+    background-color: #ffea00 !important;
   }
 }
 
@@ -101,6 +105,7 @@
     font-size: 16px !important;
     padding: 15px;
     padding: 1%;
+    background-color: #ffea00 !important;
   }
   header {
     margin: 3% 0% !important;

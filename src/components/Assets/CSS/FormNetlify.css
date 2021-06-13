@@ -70,7 +70,7 @@
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
-  background-color: #ffea00;
+  background-color: #ffc107;
   padding: 1% 2%;
   color: white;
   font-size: 18px;
@@ -89,12 +89,12 @@
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #formFy #submitButton:hover {
-  background-color: #f5d311 !important;
+  background-color: #ffc107 !important;
 }
 
 #formFy #submitButton:active {
   transition: all 1s ease in;
-  background-color: #ffea00;
+  background-color: #ffc107;
 }
 #formFy label {
   color: white;
@@ -159,7 +159,7 @@
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
-    background-color: #ffea00;
+    background-color: #ffc107;
     color: white;
     font-size: 18px;
     font-weight: 500;
@@ -224,7 +224,7 @@
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
-    background-color: #ffea00;
+    background-color: #ffc107;
     color: white;
     font-size: 18px;
     font-weight: 500;
@@ -297,7 +297,7 @@
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
-    background-color: #ffea00;
+    background-color: #ffc107;
     color: white;
     font-size: 20px !important;
     padding: 1% 5%;
