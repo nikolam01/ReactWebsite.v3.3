@@ -1,26 +1,27 @@
-import React, { Component } from "react";
-import Header from "../Common/Header";
+import React, { Component } from 'react'
+import Header from '../Common/Header'
 //import image from "../Assets/img/background.jpg";
-import image2 from "../Assets/img/background.webp";
+import image2 from '../Assets/img/background.webp'
+import GoToTop from '../Assets/JS/GoToTop'
 
 //Reusable components
-import Services from "../Common/Services";
-import Portfolio from "../Common/Portfolio";
-import Team from "../Common/Team";
-import Timeline from "../Common/Timeline";
-import Footer from "../Common/Footer";
+import Services from '../Common/Services'
+import Portfolio from '../Common/Portfolio'
+import Team from '../Common/Team'
+import Timeline from '../Common/Timeline'
+import Footer from '../Common/Footer'
 
 class Home extends Component {
   constructor(props) {
-    super(props);
-    this.handleClick = this.handleClick.bind(this);
-    this.clickFunction = this.clickFunction.bind(this);
+    super(props)
+    this.handleClick = this.handleClick.bind(this)
+    this.clickFunction = this.clickFunction.bind(this)
   }
   handleClick() {
-    console.log("hello");
+    console.log('hello')
   }
   clickFunction() {
-    console.log("fuju");
+    console.log('fuju')
   }
 
   render() {
@@ -40,7 +41,7 @@ class Home extends Component {
         <Team />
         <Footer />
       </div>
-    );
+    )
   }
 }
-export default Home;
+export default Home

@@ -40,6 +40,7 @@
 }
 .downBtn:hover {
   text-decoration: none;
+  background-color: #f5d311 !important;
 }
 .downloadBtn:focus {
   outline: none !important;

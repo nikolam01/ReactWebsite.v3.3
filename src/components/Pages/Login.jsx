@@ -1,24 +1,24 @@
-import React, { Component } from "react";
-import Field from "../Common/Field";
-import { withFormik } from "formik";
-import { connect } from "react-redux";
-import * as Yup from "yup";
-import * as AuthActions from "../../store/actions/authAction";
+import React, { Component } from 'react'
+import Field from '../Common/Field'
+import { withFormik } from 'formik'
+import { connect } from 'react-redux'
+import * as Yup from 'yup'
+import * as AuthActions from '../../store/actions/authAction'
 
 const fields = [
   {
-    name: "email",
-    elementName: "input",
-    type: "email",
-    placeholder: "Your email",
+    name: 'email',
+    elementName: 'input',
+    type: 'email',
+    placeholder: 'Your email',
   },
   {
-    name: "password",
-    elementName: "input",
-    type: "password",
-    placeholder: "Your Password",
+    name: 'password',
+    elementName: 'input',
+    type: 'password',
+    placeholder: 'Your Password',
   },
-];
+]
 
 class Login extends Component {
   render() {
@@ -32,11 +32,11 @@ class Login extends Component {
             <div className="row">
               <form
                 onSubmit={(e) => {
-                  e.preventDefault();
+                  e.preventDefault()
                   this.props.login(
                     this.props.values.email,
                     this.props.values.password
-                  );
+                  )
                 }}
               >
                 {fields.map((f, i) => {
@@ -53,7 +53,7 @@ class Login extends Component {
                         errors={this.props.errors[f.name]}
                       />
                     </div>
-                  );
+                  )
                 })}
                 <div className="col-md-12">
                   <button className="btn btn-primary" id="login-button">
@@ -65,44 +65,44 @@ class Login extends Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
 const mapStateToProps = (state) => {
   return {
     auth: state.auth,
-  };
-};
+  }
+}
 const mapDispatchToProps = (dispatch) => {
   return {
     login: (email, pass) => {
-      dispatch(AuthActions.login(email, pass));
+      dispatch(AuthActions.login(email, pass))
     },
-  };
-};
+  }
+}
 export default connect(
   mapStateToProps,
   mapDispatchToProps
 )(
   withFormik({
     mapPropsToValues: () => ({
-      email: "",
-      password: "",
+      email: '',
+      password: '',
     }),
 
     validationSchema: Yup.object().shape({
       email: Yup.string()
-        .email("Email is invalid")
-        .required("We need your mail"),
+        .email('Email is invalid')
+        .required('We need your mail'),
       password: Yup.string()
-        .min(5, "Password must contain minimum 5 chracters")
-        .required("We need your password"),
+        .min(5, 'Password must contain minimum 5 chracters')
+        .required('We need your password'),
     }),
 
     handleSubmit: (values, { setSubmitting }, login) => {
-      console.log("Login attempt", values);
-      login(values.email, values.password);
+      console.log('Login attempt', values)
+      login(values.email, values.password)
     },
   })(Login)
-);
+)

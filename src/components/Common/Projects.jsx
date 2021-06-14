@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
 function Projects() {
-  return <div className="projects"></div>;
+  return <div className="projects"></div>
 }
-export default Projects;
+export default Projects

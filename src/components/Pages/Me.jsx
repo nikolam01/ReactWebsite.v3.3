@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import "../Assets/CSS/Me.css";
-import myImage1 from "../Assets/img/Team/2.jpeg";
-import myImage2 from "../Assets/img/Me/fonis.png";
-import myImage3 from "../Assets/img/Me/pulls.jpg";
-import myImage4 from "../Assets/img/Me/programming.jpg";
+import React, { Component } from 'react'
+import '../Assets/CSS/Me.css'
+import myImage1 from '../Assets/img/Team/2.jpeg'
+import myImage2 from '../Assets/img/Me/fonis.png'
+import myImage3 from '../Assets/img/Me/pulls.jpg'
+import myImage4 from '../Assets/img/Me/programming.jpg'
 
 class Me extends Component {
   render() {
@@ -20,20 +20,20 @@ class Me extends Component {
             department of Management and Organization. I am occupied with IT
             development, management and organization, and training. In the
             future, I want to combine IT and management through one job like
-            Project Manager or IT Manager. My motto is{" "}
+            Project Manager or IT Manager. My motto is{' '}
             <b>"Keep focus, embrace your vulnerabilities, and work hard". </b>I
             am always seeking for more knowledge, experience, and skills,
             beacuse I think that the key tool for success is constant effort,
             and determination.<br></br>
             <b>
-              {" "}
+              {' '}
               Any person with average or little below intelligence can achieve
               whatever he wants only if he is ready to dedicate himself to it to
               the maximum.
             </b>
           </p>
           <div className="col-sm-3" id="imgDiv1">
-            <img src={myImage1} alt="" id="myImage1"></img>{" "}
+            <img src={myImage1} alt="" id="myImage1"></img>{' '}
           </div>
         </div>
         <div className="row">
@@ -157,13 +157,13 @@ class Me extends Component {
             <li>Listening music </li>
             <li>
               Reading books (especially psychological, self-improvement and
-              astrophysics){" "}
+              astrophysics){' '}
             </li>
             <li>Basketball, swimming, running, tennis, etc. </li>
             <li>Web development (HTML, CSS, JS) </li>
           </p>
           <div className="col-sm-3" id="imgDiv3">
-            <img src={myImage4} alt="" id="myImage4"></img>{" "}
+            <img src={myImage4} alt="" id="myImage4"></img>{' '}
           </div>
 
           <p className="col-sm-12" id="text">
@@ -194,7 +194,7 @@ class Me extends Component {
           </p>
         </div>
       </div>
-    );
+    )
   }
 }
-export default Me;
+export default Me

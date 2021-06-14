@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import "./Assets/CSS/PageWrapper.css";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react'
+import './Assets/CSS/PageWrapper.css'
+import { Link } from 'react-router-dom'
 
 class PageWrapper extends Component {
   render() {
@@ -14,10 +14,10 @@ class PageWrapper extends Component {
             <li
               className="navbar-brand js-scroll-trigger"
               id="logoNM"
-              style={{ cursor: "pointer" }}
+              style={{ cursor: 'pointer' }}
               onClick={(e) => {
-                e.preventDefault();
-                window.location.href = "/";
+                e.preventDefault()
+                window.location.href = '/'
               }}
             >
               Nikola Mirilo
@@ -31,7 +31,7 @@ class PageWrapper extends Component {
               aria-expanded="false"
               aria-label="Toggle navigation"
               id="menuBtn"
-              style={{ borderRadius: "10px" }}
+              style={{ borderRadius: '10px' }}
             >
               Menu
               <i className="fas fa-bars"></i>
@@ -75,7 +75,7 @@ class PageWrapper extends Component {
         </nav>
         {this.props.children}
       </div>
-    );
+    )
   }
 }
-export default PageWrapper;
+export default PageWrapper

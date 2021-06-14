@@ -1,45 +1,45 @@
-import React, { Component } from "react";
-import SingleService from "./SingleService";
-import "../Assets/CSS/Services.css";
+import React, { Component } from 'react'
+import SingleService from './SingleService'
+import '../Assets/CSS/Services.css'
 
 const services = [
   {
-    title: "Web development",
+    title: 'Web development',
     description:
-      "Creating websites for your company/personal use. Responsive web design and speed are guaranteed",
-    icon: "fa-laptop",
+      'Creating websites for your company/personal use. Responsive web design and speed are guaranteed',
+    icon: 'fa-laptop',
   },
   {
-    title: "E-commerce",
+    title: 'E-commerce',
     description:
-      "Online stores for commercial and representive use, via platform Shopify",
-    icon: "fa-shopping-cart",
+      'Online stores for commercial and representive use, via platform Shopify',
+    icon: 'fa-shopping-cart',
   },
   {
-    title: "Web-security",
+    title: 'Web-security',
     description:
-      "Checking and testing your websites/applications security - Q/A testing",
-    icon: "fa-lock",
+      'Checking and testing your websites/applications security - Q/A testing',
+    icon: 'fa-lock',
   },
   {
-    title: "Digital Marketing",
+    title: 'Digital Marketing',
     description:
-      "Scaling reach of your website/company using SEO methodology, Backlinks, and Google Ads",
-    icon: "fa-globe",
+      'Scaling reach of your website/company using SEO methodology, Backlinks, and Google Ads',
+    icon: 'fa-globe',
   },
   {
-    title: "Project Management",
+    title: 'Project Management',
     description:
-      "Initiating, planning, executing, monitoring, controlling and closing projects",
-    icon: "fa-project-diagram",
+      'Initiating, planning, executing, monitoring, controlling and closing projects',
+    icon: 'fa-project-diagram',
   },
   {
-    title: "Q/A Testing",
+    title: 'Q/A Testing',
     description:
-      "Ensuring that your product is of the highest possible quality for your customers. ",
-    icon: "fa-tasks",
+      'Ensuring that your product is of the highest possible quality for your customers. ',
+    icon: 'fa-tasks',
   },
-];
+]
 
 class Services extends Component {
   render() {
@@ -55,12 +55,12 @@ class Services extends Component {
           </div>
           <div className="row text-center" id="serviceItem">
             {services.map((service, index) => {
-              return <SingleService {...service} key={index} />;
+              return <SingleService {...service} key={index} />
             })}
           </div>
         </div>
       </section>
-    );
+    )
   }
 }
-export default Services;
+export default Services

@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class PortfolioItem extends Component {
   render() {
@@ -17,7 +17,7 @@ class PortfolioItem extends Component {
               id="imgPortfolio"
               src={this.props.image}
               alt=""
-              style={{ cursor: "pointer" }}
+              style={{ cursor: 'pointer' }}
               herf={this.props.link}
             />
           </Link>
@@ -29,7 +29,7 @@ class PortfolioItem extends Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
-export default PortfolioItem;
+export default PortfolioItem

@@ -1,29 +1,29 @@
-import "../Assets/CSS/CV.css";
-import { Link } from "react-router-dom";
-import DownloadLink from "react-download-link";
+import '../Assets/CSS/CV.css'
+import { Link } from 'react-router-dom'
+import DownloadLink from 'react-download-link'
 
 function CV() {
   return (
     <div className="sectionCV">
       <div className="cv">
-        {" "}
+        {' '}
         <p
           style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "6.0pt",
-            marginLeft: "0in",
-            lineHeight: "107%",
+            marginTop: '0in',
+            marginRight: '0in',
+            marginBottom: '6.0pt',
+            marginLeft: '0in',
+            lineHeight: '107%',
 
             fontFamily: '"Calibri",sans-serif',
-            textAlign: "center",
+            textAlign: 'center',
           }}
         >
           <strong>
             <span
               className="titleNM"
               style={{
-                lineHeight: "107%",
+                lineHeight: '107%',
                 fontFamily: '"Times New Roman",serif',
               }}
             >
@@ -33,23 +33,23 @@ function CV() {
         </p>
         <p
           style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "8.0pt",
-            marginLeft: "0in",
-            lineHeight: "107%",
+            marginTop: '0in',
+            marginRight: '0in',
+            marginBottom: '8.0pt',
+            marginLeft: '0in',
+            lineHeight: '107%',
 
             fontFamily: '"Calibri",sans-serif',
-            textAlign: "center",
+            textAlign: 'center',
           }}
         >
           <Link href="mailto:nikolamirilo@gmail.com">
             <span
               style={{
-                lineHeight: "107%",
+                lineHeight: '107%',
                 fontFamily: '"Times New Roman",serif',
-                color: "#0070C0",
-                textDecoration: "none",
+                color: '#0070C0',
+                textDecoration: 'none',
               }}
             >
               nikolamirilo@gmail.com
@@ -57,31 +57,31 @@ function CV() {
           </Link>
           <span
             style={{
-              lineHeight: "107%",
+              lineHeight: '107%',
               fontFamily: '"Times New Roman",serif',
-              color: "#0D0D0D",
+              color: '#0D0D0D',
             }}
           >
             &nbsp;
           </span>
           <span
             style={{
-              lineHeight: "107%",
+              lineHeight: '107%',
               fontFamily: '"Times New Roman",serif',
             }}
           >
-            | +381 60 427 81 75 |{" "}
+            | +381 60 427 81 75 |{' '}
             <span
               style={{
-                color: "#0070C0",
-                border: "none windowtext 1.0pt",
-                padding: "0in",
-                cursor: "pointer",
+                color: '#0070C0',
+                border: 'none windowtext 1.0pt',
+                padding: '0in',
+                cursor: 'pointer',
               }}
               onClick={(e) => {
-                e.preventDefault();
+                e.preventDefault()
                 window.location.href =
-                  "https://www.linkedin.com/in/nikola-mirilo";
+                  'https://www.linkedin.com/in/nikola-mirilo'
               }}
             >
               www.linkedin.com/in/nikola-mirilo
@@ -90,36 +90,36 @@ function CV() {
         </p>
         <div
           style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "8.0pt",
-            marginLeft: "0in",
-            lineHeight: "107%",
+            marginTop: '0in',
+            marginRight: '0in',
+            marginBottom: '8.0pt',
+            marginLeft: '0in',
+            lineHeight: '107%',
 
             fontFamily: '"Calibri",sans-serif',
-            border: "none",
-            borderBottom: "solid windowtext 1.5pt",
-            padding: "0in 0in 1.0pt 0in",
+            border: 'none',
+            borderBottom: 'solid windowtext 1.5pt',
+            padding: '0in 0in 1.0pt 0in',
           }}
         >
           <p
             style={{
-              marginTop: "8.0pt",
-              marginRight: "0in",
-              marginBottom: "8.0pt",
-              marginLeft: "0in",
-              lineHeight: "107%",
+              marginTop: '8.0pt',
+              marginRight: '0in',
+              marginBottom: '8.0pt',
+              marginLeft: '0in',
+              lineHeight: '107%',
 
               fontFamily: '"Calibri",sans-serif',
-              textAlign: "justify",
-              border: "none",
-              padding: "0in",
+              textAlign: 'justify',
+              border: 'none',
+              padding: '0in',
             }}
           >
             <strong>
               <span
                 style={{
-                  lineHeight: "107%",
+                  lineHeight: '107%',
                   fontFamily: '"Times New Roman",serif',
                 }}
               >
@@ -130,20 +130,20 @@ function CV() {
         </div>
         <p
           style={{
-            marginTop: "0in",
-            marginRight: "1.3pt",
-            marginBottom: "4.0pt",
-            marginLeft: "0in",
-            lineHeight: "107%",
+            marginTop: '0in',
+            marginRight: '1.3pt',
+            marginBottom: '4.0pt',
+            marginLeft: '0in',
+            lineHeight: '107%',
 
             fontFamily: '"Calibri",sans-serif',
-            textAlign: "justify",
+            textAlign: 'justify',
           }}
         >
           <strong>
             <span
               style={{
-                lineHeight: "107%",
+                lineHeight: '107%',
                 fontFamily: '"Times New Roman",serif',
               }}
             >
@@ -153,19 +153,19 @@ function CV() {
         </p>
         <p
           style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "0in",
-            marginLeft: "0in",
-            lineHeight: "107%",
+            marginTop: '0in',
+            marginRight: '0in',
+            marginBottom: '0in',
+            marginLeft: '0in',
+            lineHeight: '107%',
 
             fontFamily: '"Calibri",sans-serif',
-            textAlign: "justify",
+            textAlign: 'justify',
           }}
         >
           <span
             style={{
-              lineHeight: "107%",
+              lineHeight: '107%',
               fontFamily: '"Times New Roman",serif',
             }}
           >
@@ -174,19 +174,19 @@ function CV() {
         </p>
         <p
           style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "4.0pt",
-            marginLeft: "0in",
-            lineHeight: "107%",
+            marginTop: '0in',
+            marginRight: '0in',
+            marginBottom: '4.0pt',
+            marginLeft: '0in',
+            lineHeight: '107%',
 
             fontFamily: '"Calibri",sans-serif',
-            textAlign: "justify",
+            textAlign: 'justify',
           }}
         >
           <span
             style={{
-              lineHeight: "107%",
+              lineHeight: '107%',
               fontFamily: '"Times New Roman",serif',
             }}
           >
@@ -195,36 +195,36 @@ function CV() {
         </p>
         <div
           style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "8.0pt",
-            marginLeft: "0in",
-            lineHeight: "107%",
+            marginTop: '0in',
+            marginRight: '0in',
+            marginBottom: '8.0pt',
+            marginLeft: '0in',
+            lineHeight: '107%',
 
             fontFamily: '"Calibri",sans-serif',
-            border: "none",
-            borderBottom: "solid windowtext 1.5pt",
-            padding: "0in 0in 1.0pt 0in",
+            border: 'none',
+            borderBottom: 'solid windowtext 1.5pt',
+            padding: '0in 0in 1.0pt 0in',
           }}
         >
           <p
             style={{
-              marginTop: "8.0pt",
-              marginRight: "0in",
-              marginBottom: "8.0pt",
-              marginLeft: "0in",
-              lineHeight: "107%",
+              marginTop: '8.0pt',
+              marginRight: '0in',
+              marginBottom: '8.0pt',
+              marginLeft: '0in',
+              lineHeight: '107%',
 
               fontFamily: '"Calibri",sans-serif',
-              textAlign: "justify",
-              border: "none",
-              padding: "0in",
+              textAlign: 'justify',
+              border: 'none',
+              padding: '0in',
             }}
           >
             <strong>
               <span
                 style={{
-                  lineHeight: "107%",
+                  lineHeight: '107%',
                   fontFamily: '"Times New Roman",serif',
                 }}
               >
@@ -235,21 +235,21 @@ function CV() {
         </div>
         <p
           style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "0in",
-            marginLeft: "0in",
-            lineHeight: "normal",
+            marginTop: '0in',
+            marginRight: '0in',
+            marginBottom: '0in',
+            marginLeft: '0in',
+            lineHeight: 'normal',
 
             fontFamily: '"Calibri",sans-serif',
-            textAlign: "justify",
+            textAlign: 'justify',
           }}
         >
           <strong>
             <span
               style={{
                 fontFamily: '"Times New Roman",serif',
-                color: "#0E101A",
+                color: '#0E101A',
               }}
             >
               Technical Skills:&nbsp;
@@ -258,7 +258,7 @@ function CV() {
           <span
             style={{
               fontFamily: '"Times New Roman",serif',
-              color: "#0E101A",
+              color: '#0E101A',
             }}
           >
             Web Development (HTML, CSS, and Java Script), Programming (Python),
@@ -268,21 +268,21 @@ function CV() {
         </p>
         <p
           style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "0in",
-            marginLeft: "0in",
-            lineHeight: "normal",
+            marginTop: '0in',
+            marginRight: '0in',
+            marginBottom: '0in',
+            marginLeft: '0in',
+            lineHeight: 'normal',
 
             fontFamily: '"Calibri",sans-serif',
-            textAlign: "justify",
+            textAlign: 'justify',
           }}
         >
           <strong>
             <span
               style={{
                 fontFamily: '"Times New Roman",serif',
-                color: "#0E101A",
+                color: '#0E101A',
               }}
             >
               Soft Skills:&nbsp;
@@ -291,7 +291,7 @@ function CV() {
           <span
             style={{
               fontFamily: '"Times New Roman",serif',
-              color: "#0E101A",
+              color: '#0E101A',
             }}
           >
             Critical Thinking, Communication, Leadership, Teamwork, and Positive
@@ -300,36 +300,36 @@ function CV() {
         </p>
         <div
           style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "8.0pt",
-            marginLeft: "0in",
-            lineHeight: "107%",
+            marginTop: '0in',
+            marginRight: '0in',
+            marginBottom: '8.0pt',
+            marginLeft: '0in',
+            lineHeight: '107%',
 
             fontFamily: '"Calibri",sans-serif',
-            border: "none",
-            borderBottom: "solid windowtext 1.5pt",
-            padding: "0in 0in 1.0pt 0in",
+            border: 'none',
+            borderBottom: 'solid windowtext 1.5pt',
+            padding: '0in 0in 1.0pt 0in',
           }}
         >
           <p
             style={{
-              marginTop: "8.0pt",
-              marginRight: "0in",
-              marginBottom: "8.0pt",
-              marginLeft: "0in",
-              lineHeight: "107%",
+              marginTop: '8.0pt',
+              marginRight: '0in',
+              marginBottom: '8.0pt',
+              marginLeft: '0in',
+              lineHeight: '107%',
 
               fontFamily: '"Calibri",sans-serif',
-              textAlign: "justify",
-              border: "none",
-              padding: "0in",
+              textAlign: 'justify',
+              border: 'none',
+              padding: '0in',
             }}
           >
             <strong>
               <span
                 style={{
-                  lineHeight: "107%",
+                  lineHeight: '107%',
                   fontFamily: '"Times New Roman",serif',
                 }}
               >
@@ -340,20 +340,20 @@ function CV() {
         </div>
         <p
           style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "6.0pt",
-            marginLeft: "0in",
-            lineHeight: "107%",
+            marginTop: '0in',
+            marginRight: '0in',
+            marginBottom: '6.0pt',
+            marginLeft: '0in',
+            lineHeight: '107%',
 
             fontFamily: '"Calibri",sans-serif',
-            textAlign: "justify",
+            textAlign: 'justify',
           }}
         >
           <strong>
             <span
               style={{
-                lineHeight: "107%",
+                lineHeight: '107%',
                 fontFamily: '"Times New Roman",serif',
               }}
             >
@@ -366,11 +366,11 @@ function CV() {
             </span>
           </strong>
         </p>
-        <ul style={{ listStyleType: "none" }}>
+        <ul style={{ listStyleType: 'none' }}>
           <li>
             <span
               style={{
-                lineHeight: "107%",
+                lineHeight: '107%',
                 fontFamily: '"Times New Roman",serif',
               }}
             >
@@ -380,7 +380,7 @@ function CV() {
           <li>
             <span
               style={{
-                lineHeight: "107%",
+                lineHeight: '107%',
                 fontFamily: '"Times New Roman",serif',
               }}
             >
@@ -390,20 +390,20 @@ function CV() {
         </ul>
         <p
           style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "6.0pt",
-            marginLeft: "0in",
-            lineHeight: "107%",
+            marginTop: '0in',
+            marginRight: '0in',
+            marginBottom: '6.0pt',
+            marginLeft: '0in',
+            lineHeight: '107%',
 
             fontFamily: '"Calibri",sans-serif',
-            textAlign: "justify",
+            textAlign: 'justify',
           }}
         >
           <strong>
             <span
               style={{
-                lineHeight: "107%",
+                lineHeight: '107%',
                 fontFamily: '"Times New Roman",serif',
               }}
             >
@@ -416,11 +416,11 @@ function CV() {
             </span>
           </strong>
         </p>
-        <ul style={{ listStyleType: "none" }}>
+        <ul style={{ listStyleType: 'none' }}>
           <li>
             <span
               style={{
-                lineHeight: "107%",
+                lineHeight: '107%',
                 fontFamily: '"Times New Roman",serif',
               }}
             >
@@ -430,7 +430,7 @@ function CV() {
           <li>
             <span
               style={{
-                lineHeight: "107%",
+                lineHeight: '107%',
                 fontFamily: '"Times New Roman",serif',
               }}
             >
@@ -440,20 +440,20 @@ function CV() {
         </ul>
         <p
           style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "6.0pt",
-            marginLeft: "0in",
-            lineHeight: "107%",
+            marginTop: '0in',
+            marginRight: '0in',
+            marginBottom: '6.0pt',
+            marginLeft: '0in',
+            lineHeight: '107%',
 
             fontFamily: '"Calibri",sans-serif',
-            textAlign: "justify",
+            textAlign: 'justify',
           }}
         >
           <strong>
             <span
               style={{
-                lineHeight: "107%",
+                lineHeight: '107%',
                 fontFamily: '"Times New Roman",serif',
               }}
             >
@@ -466,11 +466,11 @@ function CV() {
             </span>
           </strong>
         </p>
-        <ul style={{ listStyleType: "none" }}>
+        <ul style={{ listStyleType: 'none' }}>
           <li>
             <span
               style={{
-                lineHeight: "107%",
+                lineHeight: '107%',
                 fontFamily: '"Times New Roman",serif',
               }}
             >
@@ -480,7 +480,7 @@ function CV() {
           <li>
             <span
               style={{
-                lineHeight: "107%",
+                lineHeight: '107%',
                 fontFamily: '"Times New Roman",serif',
               }}
             >
@@ -491,36 +491,36 @@ function CV() {
         </ul>
         <div
           style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "8.0pt",
-            marginLeft: "0in",
-            lineHeight: "107%",
+            marginTop: '0in',
+            marginRight: '0in',
+            marginBottom: '8.0pt',
+            marginLeft: '0in',
+            lineHeight: '107%',
 
             fontFamily: '"Calibri",sans-serif',
-            border: "none",
-            borderBottom: "solid windowtext 1.5pt",
-            padding: "0in 0in 1.0pt 0in",
+            border: 'none',
+            borderBottom: 'solid windowtext 1.5pt',
+            padding: '0in 0in 1.0pt 0in',
           }}
         >
           <p
             style={{
-              marginTop: "8.0pt",
-              marginRight: "0in",
-              marginBottom: "8.0pt",
-              marginLeft: "0in",
-              lineHeight: "107%",
+              marginTop: '8.0pt',
+              marginRight: '0in',
+              marginBottom: '8.0pt',
+              marginLeft: '0in',
+              lineHeight: '107%',
 
               fontFamily: '"Calibri",sans-serif',
-              textAlign: "justify",
-              border: "none",
-              padding: "0in",
+              textAlign: 'justify',
+              border: 'none',
+              padding: '0in',
             }}
           >
             <strong>
               <span
                 style={{
-                  lineHeight: "107%",
+                  lineHeight: '107%',
                   fontFamily: '"Times New Roman",serif',
                 }}
               >
@@ -531,21 +531,21 @@ function CV() {
         </div>
         <p
           style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "6.0pt",
-            marginLeft: "0in",
-            lineHeight: "normal",
+            marginTop: '0in',
+            marginRight: '0in',
+            marginBottom: '6.0pt',
+            marginLeft: '0in',
+            lineHeight: 'normal',
 
             fontFamily: '"Calibri",sans-serif',
-            textAlign: "justify",
+            textAlign: 'justify',
           }}
         >
           <strong>
             <span
               style={{
                 fontFamily: '"Times New Roman",serif',
-                color: "#0D0D0D",
+                color: '#0D0D0D',
               }}
             >
               FONIS – ICT Student’s Association
@@ -555,36 +555,36 @@ function CV() {
             <span
               style={{
                 fontFamily: '"Times New Roman",serif',
-                color: "#0E101A",
+                color: '#0E101A',
               }}
             ></span>
           </strong>
         </p>
         <div
           style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "8.0pt",
-            marginLeft: "0in",
-            lineHeight: "107%",
+            marginTop: '0in',
+            marginRight: '0in',
+            marginBottom: '8.0pt',
+            marginLeft: '0in',
+            lineHeight: '107%',
 
             fontFamily: '"Calibri",sans-serif',
           }}
         >
           <ul
             style={{
-              marginBottom: "0in",
-              listStyleType: "none",
-              marginLeft: "0in",
+              marginBottom: '0in',
+              listStyleType: 'none',
+              marginLeft: '0in',
             }}
           >
             <li
               style={{
-                marginTop: "0in",
-                marginRight: "0in",
-                marginBottom: "8.0pt",
-                marginLeft: "0in",
-                lineHeight: "107%",
+                marginTop: '0in',
+                marginRight: '0in',
+                marginBottom: '8.0pt',
+                marginLeft: '0in',
+                lineHeight: '107%',
 
                 fontFamily: '"Calibri",sans-serif',
               }}
@@ -602,33 +602,33 @@ function CV() {
         </div>
         <p
           style={{
-            marginTop: "4.0pt",
-            marginRight: "0in",
-            marginBottom: "4.0pt",
-            marginLeft: "0in",
-            lineHeight: "normal",
+            marginTop: '4.0pt',
+            marginRight: '0in',
+            marginBottom: '4.0pt',
+            marginLeft: '0in',
+            lineHeight: 'normal',
 
             fontFamily: '"Calibri",sans-serif',
-            textAlign: "justify",
+            textAlign: 'justify',
           }}
         >
           <strong>
             <span
               style={{
                 fontFamily: '"Times New Roman",serif',
-                color: "#0E101A",
+                color: '#0E101A',
               }}
             >
               Creating, and deploying personal website
             </span>
           </strong>
         </p>
-        <ul style={{ listStyleType: "none", marginLeft: "0in" }}>
+        <ul style={{ listStyleType: 'none', marginLeft: '0in' }}>
           <li>
             <span
               style={{
                 fontFamily: '"Times New Roman",serif',
-                color: "#0E101A",
+                color: '#0E101A',
               }}
             >
               Building personal website using HTML, CSS for version 1, HTML,
@@ -640,7 +640,7 @@ function CV() {
             <span
               style={{
                 fontFamily: '"Times New Roman",serif',
-                color: "#0E101A",
+                color: '#0E101A',
               }}
             >
               Website link:&nbsp;
@@ -648,12 +648,12 @@ function CV() {
             <span
               style={{
                 fontFamily: '"Times New Roman",serif',
-                color: "#0070C0",
-                cursor: "pointer",
+                color: '#0070C0',
+                cursor: 'pointer',
               }}
               onClick={(e) => {
-                e.preventDefault();
-                window.location.href = "http://nikolamirilo.netlify.app/";
+                e.preventDefault()
+                window.location.href = 'http://nikolamirilo.netlify.app/'
               }}
             >
               https://nikolamirilo.netlify.app/
@@ -662,29 +662,29 @@ function CV() {
         </ul>
         <div
           style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "8.0pt",
-            marginLeft: "0in",
-            lineHeight: "107%",
+            marginTop: '0in',
+            marginRight: '0in',
+            marginBottom: '8.0pt',
+            marginLeft: '0in',
+            lineHeight: '107%',
 
             fontFamily: '"Calibri",sans-serif',
-            border: "none",
-            borderBottom: "solid windowtext 1.5pt",
-            padding: "0in 0in 1.0pt 0in",
+            border: 'none',
+            borderBottom: 'solid windowtext 1.5pt',
+            padding: '0in 0in 1.0pt 0in',
           }}
         >
           <p
             style={{
-              marginTop: "8.0pt",
-              marginRight: "0in",
-              marginBottom: "8.0pt",
-              marginLeft: "0in",
-              lineHeight: "normal",
+              marginTop: '8.0pt',
+              marginRight: '0in',
+              marginBottom: '8.0pt',
+              marginLeft: '0in',
+              lineHeight: 'normal',
               fontFamily: '"Calibri",sans-serif',
-              textAlign: "justify",
-              border: "none",
-              padding: "0in",
+              textAlign: 'justify',
+              border: 'none',
+              padding: '0in',
             }}
           >
             <strong>
@@ -700,20 +700,20 @@ function CV() {
         </div>
         <p
           style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "0in",
-            marginLeft: "0in",
-            lineHeight: "normal",
+            marginTop: '0in',
+            marginRight: '0in',
+            marginBottom: '0in',
+            marginLeft: '0in',
+            lineHeight: 'normal',
             fontFamily: '"Calibri",sans-serif',
-            textAlign: "justify",
+            textAlign: 'justify',
           }}
         >
           <strong>
             <span
               style={{
                 fontFamily: '"Times New Roman",serif',
-                color: "#0E101A",
+                color: '#0E101A',
               }}
             >
               Languages:&nbsp;
@@ -722,7 +722,7 @@ function CV() {
           <span
             style={{
               fontFamily: '"Times New Roman",serif',
-              color: "#0E101A",
+              color: '#0E101A',
             }}
           >
             Serbian (Bilingual proficiency), English (Professional working
@@ -731,20 +731,20 @@ function CV() {
         </p>
         <p
           style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "0in",
-            marginLeft: "0in",
-            lineHeight: "normal",
+            marginTop: '0in',
+            marginRight: '0in',
+            marginBottom: '0in',
+            marginLeft: '0in',
+            lineHeight: 'normal',
             fontFamily: '"Calibri",sans-serif',
-            textAlign: "justify",
+            textAlign: 'justify',
           }}
         >
           <strong>
             <span
               style={{
                 fontFamily: '"Times New Roman",serif',
-                color: "#0E101A",
+                color: '#0E101A',
               }}
             >
               Interests:&nbsp;
@@ -753,7 +753,7 @@ function CV() {
           <span
             style={{
               fontFamily: '"Times New Roman",serif',
-              color: "#0E101A",
+              color: '#0E101A',
             }}
           >
             Trained rowing for 6 years and won 20 national championships, and 10
@@ -767,9 +767,9 @@ function CV() {
         className="downBtn"
         label="Download my CV"
         filename="myfile.txt"
-        exportFile={() => "My cached data"}
+        exportFile={() => 'My cached data'}
       />
     </div>
-  );
+  )
 }
-export default CV;
+export default CV

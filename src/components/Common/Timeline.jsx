@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import "../Assets/CSS/Background.css";
-import "../Assets/CSS/Timeline.css";
+import React, { Component } from 'react'
+import '../Assets/CSS/Background.css'
+import '../Assets/CSS/Timeline.css'
 
 class Timeline extends Component {
   render() {
@@ -119,7 +119,7 @@ class Timeline extends Component {
           </ul>
         </div>
       </section>
-    );
+    )
   }
 }
-export default Timeline;
+export default Timeline

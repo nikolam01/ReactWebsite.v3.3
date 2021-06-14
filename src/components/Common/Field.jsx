@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
 function Field() {
   return (
     <div className="form-group">
-      {this.props.elementName === "input" ? (
+      {this.props.elementName === 'input' ? (
         <input
           className="form-control"
           id={this.props.name}
@@ -33,6 +33,6 @@ function Field() {
         )}
       </p>
     </div>
-  );
+  )
 }
-export default Field;
+export default Field

@@ -1,53 +1,53 @@
-import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 //Sections
-import PageWrapper from "./components/PageWrapper";
-import AdminWrapper from "./components/AdminWrapper";
-import Portfolio from "./components/Common/Portfolio";
-import Services from "./components/Common/Services";
-import Footer from "./components/Common/Footer";
-import Projects from "./components/Common/Projects";
-import CV from "./components/Common/CV";
-import Form from "./components/Common/Form";
+import PageWrapper from './components/PageWrapper'
+import AdminWrapper from './components/AdminWrapper'
+import Portfolio from './components/Common/Portfolio'
+import Services from './components/Common/Services'
+import Footer from './components/Common/Footer'
+import Projects from './components/Common/Projects'
+import CV from './components/Common/CV'
+import Form from './components/Common/Form'
 
 //Pages
-import Home from "./components/Pages/Home";
-import About from "./components/Pages/About";
-import Contact from "./components/Pages/Contact";
-import Login from "./components/Pages/Login";
-import Me from "./components/Pages/Me";
-import Swipe from "./components/Common/Swipe";
+import Home from './components/Pages/Home'
+import About from './components/Pages/About'
+import Contact from './components/Pages/Contact'
+import Login from './components/Pages/Login'
+import Me from './components/Pages/Me'
+import Swipe from './components/Common/Swipe'
 
 class App extends Component {
   constructor(props) {
-    super(props);
-    this.state = { apiResponse: "" };
+    super(props)
+    this.state = { apiResponse: '' }
   }
   callAPI() {
-    fetch("http://localhost:3000/testAPI")
+    fetch('http://localhost:3000/testAPI')
       .then((res) => res.text())
-      .then((res) => this.setState({ apiResponse: res }));
+      .then((res) => this.setState({ apiResponse: res }))
   }
   componentWillMount() {
-    this.callAPI();
+    this.callAPI()
   }
   authenticate() {
-    return new Promise((resolve) => setTimeout(resolve, 1000)); // 1000 ms
+    return new Promise((resolve) => setTimeout(resolve, 1000)) // 1000 ms
   }
 
   componentDidMount() {
     this.authenticate().then(() => {
-      const ele = document.getElementById("ipl-progress-indicator");
+      const ele = document.getElementById('ipl-progress-indicator')
       if (ele) {
         // fade out
-        ele.classList.add("available");
+        ele.classList.add('available')
         setTimeout(() => {
           // remove from DOM
-          ele.outerHTML = "";
-        }, 2000);
+          ele.outerHTML = ''
+        }, 2000)
       }
-    });
+    })
   }
   render() {
     return (
@@ -161,7 +161,7 @@ class App extends Component {
           )}
         />
       </Router>
-    );
+    )
   }
 }
-export default App;
+export default App

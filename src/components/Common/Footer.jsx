@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import "../Assets/CSS/Footer.css";
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import '../Assets/CSS/Footer.css'
 
 class Footer extends Component {
   render() {
@@ -16,9 +16,9 @@ class Footer extends Component {
                 className="btn btn-dark btn-social mx-2"
                 type="button"
                 onClick={(e) => {
-                  e.preventDefault();
+                  e.preventDefault()
                   window.location.href =
-                    "https://www.instagram.com/nikola.mirilo/";
+                    'https://www.instagram.com/nikola.mirilo/'
                 }}
               >
                 <i className="fab fa-instagram"></i>
@@ -27,9 +27,9 @@ class Footer extends Component {
                 className="btn btn-dark btn-social mx-2"
                 type="button"
                 onClick={(e) => {
-                  e.preventDefault();
+                  e.preventDefault()
                   window.location.href =
-                    "https://www.facebook.com/nikola.mirilo.5/";
+                    'https://www.facebook.com/nikola.mirilo.5/'
                 }}
               >
                 <i className="fab fa-facebook-f"></i>
@@ -38,9 +38,9 @@ class Footer extends Component {
                 className="btn btn-dark btn-social mx-2"
                 type="button"
                 onClick={(e) => {
-                  e.preventDefault();
+                  e.preventDefault()
                   window.location.href =
-                    "https://www.linkedin.com/in/nikola-mirilo";
+                    'https://www.linkedin.com/in/nikola-mirilo'
                 }}
               >
                 <i className="fab fa-linkedin-in"></i>
@@ -48,11 +48,11 @@ class Footer extends Component {
             </div>
             <div className="col-lg-4 text-lg-right">
               <label className="mr-3" id="privacy">
-                Email:{" "}
+                Email:{' '}
                 <Link
                   onClick={(e) => {
-                    e.preventDefault();
-                    window.location.href = "mailto:nikolamirilo@gmail.com";
+                    e.preventDefault()
+                    window.location.href = 'mailto:nikolamirilo@gmail.com'
                   }}
                 >
                   nikolamirilo@gmail.com
@@ -63,7 +63,7 @@ class Footer extends Component {
           </div>
         </div>
       </footer>
-    );
+    )
   }
 }
-export default Footer;
+export default Footer

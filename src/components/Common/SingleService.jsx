@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 
 class SingleService extends Component {
   render() {
@@ -11,7 +11,7 @@ class SingleService extends Component {
         <h4 className="my-3">{this.props.title}</h4>
         <p className="text-muted">{this.props.description}</p>
       </div>
-    );
+    )
   }
 }
-export default SingleService;
+export default SingleService

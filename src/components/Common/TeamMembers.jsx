@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import "../Assets/CSS/Team.css";
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import '../Assets/CSS/Team.css'
 
 class TeamMembers extends Component {
   render() {
@@ -13,8 +13,8 @@ class TeamMembers extends Component {
             alt="Nikola Mirilo"
             id="imgMe"
             onClick={(e) => {
-              e.preventDefault();
-              window.location.href = "/me";
+              e.preventDefault()
+              window.location.href = '/me'
             }}
           />
           <h4> {this.props.designerName}</h4>
@@ -23,8 +23,8 @@ class TeamMembers extends Component {
             className="btn btn-dark btn-social mx-2"
             type="button"
             onClick={(e) => {
-              e.preventDefault();
-              window.location.href = "https://www.instagram.com/nikola.mirilo/";
+              e.preventDefault()
+              window.location.href = 'https://www.instagram.com/nikola.mirilo/'
             }}
           >
             <i className="fab fa-instagram"></i>
@@ -33,9 +33,8 @@ class TeamMembers extends Component {
             className="btn btn-dark btn-social mx-2"
             type="button"
             onClick={(e) => {
-              e.preventDefault();
-              window.location.href =
-                "https://www.facebook.com/nikola.mirilo.5/";
+              e.preventDefault()
+              window.location.href = 'https://www.facebook.com/nikola.mirilo.5/'
             }}
           >
             <i className="fab fa-facebook-f"></i>
@@ -44,16 +43,15 @@ class TeamMembers extends Component {
             className="btn btn-dark btn-social mx-2"
             type="button"
             onClick={(e) => {
-              e.preventDefault();
-              window.location.href =
-                "https://www.linkedin.com/in/nikola-mirilo";
+              e.preventDefault()
+              window.location.href = 'https://www.linkedin.com/in/nikola-mirilo'
             }}
           >
             <i className="fab fa-linkedin-in"></i>
           </Link>
         </div>
       </div>
-    );
+    )
   }
 }
-export default TeamMembers;
+export default TeamMembers
