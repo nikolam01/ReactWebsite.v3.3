@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Header from '../Common/Header'
 //import image from "../Assets/img/background.jpg";
 import image2 from '../Assets/img/background.webp'
-import GoToTop from '../Assets/JS/GoToTop'
 
 //Reusable components
 import Services from '../Common/Services'
