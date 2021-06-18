@@ -70,6 +70,15 @@ class App extends Component {
           )}
         />
         <Route
+          exact={true}
+          path="/footer"
+          render={(props) => (
+            <PageWrapper>
+              <Footer {...props} />
+            </PageWrapper>
+          )}
+        />
+        <Route
           path="/about"
           render={(props) => (
             <PageWrapper>

@@ -1,6 +1,6 @@
 import '../Assets/CSS/CV.css'
 import { Link } from 'react-router-dom'
-import DownloadLink from 'react-download-link'
+import NikolaMirilo from '../Assets/Docs/NikolaMirilo.pdf'
 
 function CV() {
   return (
@@ -762,13 +762,14 @@ function CV() {
           </span>
         </p>
       </div>
-      <DownloadLink
+      <a
         id="downloadBtn"
         className="downBtn"
-        label="Download my CV"
-        filename="myfile.txt"
-        exportFile={() => 'My cached data'}
-      />
+        href={NikolaMirilo}
+        download="NikolaMirilo"
+      >
+        Download my CV
+      </a>
     </div>
   )
 }
