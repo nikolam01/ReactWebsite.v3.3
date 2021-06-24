@@ -34,7 +34,6 @@ class Home extends Component {
           showButton={true}
           image={image2}
         />
-        <Services />
         <Portfolio />
         <Timeline />
         <Team />

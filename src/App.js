@@ -82,11 +82,12 @@ class App extends Component {
           path="/about"
           render={(props) => (
             <PageWrapper>
+              <About {...props} />
               <Me {...props} />
               <br></br>
               <br></br>
               <br></br>
-              <About {...props}></About>
+
               <Footer {...props} />
             </PageWrapper>
           )}
@@ -96,43 +97,6 @@ class App extends Component {
           render={(props) => (
             <PageWrapper>
               <Form />
-            </PageWrapper>
-          )}
-        />
-        <Route
-          path="/form"
-          render={(props) => (
-            <PageWrapper>
-              <Contact {...props} />
-              <Footer {...props} />
-            </PageWrapper>
-          )}
-        />
-        <Route
-          exact={true}
-          path="/cv"
-          render={(props) => (
-            <PageWrapper>
-              <CV {...props} />
-              <Footer {...props} />
-            </PageWrapper>
-          )}
-        />
-        <Route
-          path="/projects"
-          render={(props) => (
-            <PageWrapper>
-              <Projects {...props} />
-            </PageWrapper>
-          )}
-        />
-
-        <Route
-          path="/services"
-          render={(props) => (
-            <PageWrapper>
-              <Services {...props} />
-              <Footer {...props} />
             </PageWrapper>
           )}
         />
@@ -155,16 +119,6 @@ class App extends Component {
               <br></br>
               <br></br>
               <br></br>
-              <Footer {...props} />
-            </PageWrapper>
-          )}
-        />
-
-        <Route
-          path="/swipe"
-          render={(props) => (
-            <PageWrapper>
-              <Swipe {...props} />
               <Footer {...props} />
             </PageWrapper>
           )}

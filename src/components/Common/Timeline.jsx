@@ -77,8 +77,8 @@ class Timeline extends Component {
                 <div className="timeline-body">
                   <p className="text-muted">
                     Started learning more about backend and server side tools.
-                    Numerous libraries and softwares like LoopBack4, Node JS,
-                    Axios, Mongo DB, etc.
+                    Numerous libraries and technologies like Node JS, Axios,
+                    Mongo DB, etc.
                   </p>
                 </div>
               </div>
