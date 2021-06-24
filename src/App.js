@@ -5,19 +5,14 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import PageWrapper from './components/PageWrapper'
 import AdminWrapper from './components/AdminWrapper'
 import Portfolio from './components/Common/Portfolio'
-import Services from './components/Common/Services'
 import Footer from './components/Common/Footer'
-import Projects from './components/Common/Projects'
-import CV from './components/Common/CV'
 import Form from './components/Common/Form'
 
 //Pages
 import Home from './components/Pages/Home'
 import About from './components/Pages/About'
-import Contact from './components/Pages/Contact'
 import Login from './components/Pages/Login'
 import Me from './components/Pages/Me'
-import Swipe from './components/Common/Swipe'
 
 class App extends Component {
   constructor(props) {

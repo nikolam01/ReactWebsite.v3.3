@@ -1,10 +1,8 @@
 import React, { Component } from 'react'
 import Header from '../Common/Header'
-//import image from "../Assets/img/background.jpg";
 import image2 from '../Assets/img/background.webp'
 
 //Reusable components
-import Services from '../Common/Services'
 import Portfolio from '../Common/Portfolio'
 import Team from '../Common/Team'
 import Timeline from '../Common/Timeline'
