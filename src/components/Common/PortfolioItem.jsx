@@ -1,35 +1,33 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
-class PortfolioItem extends Component {
-  render() {
-    return (
-      <div className="col-lg-4 col-sm-6 mb-4">
-        <div className="portfolio-item">
-          <Link className="portfolio-link" data-toggle="modal">
-            <div className="portfolio-hover">
-              <div className="portfolio-hover-content">
-                <i className="fas fa-i fa-3x"></i>
-              </div>
+const PortfolioItem = (props) => {
+  return (
+    <div className="col-lg-4 col-sm-6 mb-4">
+      <div className="portfolio-item">
+        <Link className="portfolio-link" data-toggle="modal">
+          <div className="portfolio-hover">
+            <div className="portfolio-hover-content">
+              <i className="fas fa-i fa-3x"></i>
             </div>
-            <img
-              className="img-fluid"
-              id="imgPortfolio"
-              src={this.props.image}
-              alt=""
-              style={{ cursor: 'pointer' }}
-              herf={this.props.link}
-            />
-          </Link>
-          <div className="portfolio-caption">
-            <div className="portfolio-caption-heading">{this.props.title}</div>
-            <div className="portfolio-caption-subheading text-muted">
-              {this.props.subtitle}
-            </div>
+          </div>
+          <img
+            className="img-fluid"
+            id="imgPortfolio"
+            src={props.image}
+            alt=""
+            style={{ cursor: 'pointer' }}
+            herf={props.link}
+          />
+        </Link>
+        <div className="portfolio-caption">
+          <div className="portfolio-caption-heading">{props.title}</div>
+          <div className="portfolio-caption-subheading text-muted">
+            {props.subtitle}
           </div>
         </div>
       </div>
-    )
-  }
+    </div>
+  )
 }
 export default PortfolioItem

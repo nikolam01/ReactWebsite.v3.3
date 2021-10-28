@@ -3,12 +3,7 @@
   background-image: url('../img/map-image.webp');
   background-repeat: no-repeat;
   background-position: cover !important;
-  min-height: 100vh;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  height: 100vh;
 }
 #formFy {
   padding: 10%;

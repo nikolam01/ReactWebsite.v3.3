@@ -1,0 +1,73 @@
+{
+  "services": [
+    {
+      "title": "Web development",
+      "description": "Creating websites for your company/personal use. Responsive web design and speed are guaranteed",
+      "icon": "fa-laptop"
+    },
+    {
+      "title": "E-commerce",
+      "description": "Online stores for commercial and representive use, via platform Shopify",
+      "icon": "fa-shopping-cart"
+    },
+    {
+      "title": "Web-security",
+      "description": "Checking and testing your websites/applications security - Q/A testing",
+      "icon": "fa-lock"
+    },
+    {
+      "title": "Digital Marketing",
+      "description": "Scaling reach of your website/company using SEO methodology, Backlink's, and Google Ads",
+      "icon": "fa-globe"
+    },
+    {
+      "title": "Project Management",
+      "description": "Initiating, planning, executing, monitoring, controlling and closing projects",
+      "icon": "fa-project-diagram"
+    },
+    {
+      "title": "Q/A Testing",
+      "description": "Ensuring that your product is of the highest possible quality for your customers. ",
+      "icon": "fa-tasks"
+    }
+  ],
+
+  "portfolio": [
+    {
+      "title": "Limitless dimensions",
+      "subtitle": "Responsive Design",
+      "image": "https://www.enyosolutions.com/news/wp-content/uploads/2019/12/responsive-design-presentation.jpg",
+      "link": "https//:www.google.com"
+    },
+    {
+      "title": "Explore",
+      "subtitle": "Photography",
+      "image": "https://images.unsplash.com/photo-1543427099-ca22f2550846?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
+      "link": "https://www.instagram.com/photosdale/"
+    },
+    {
+      "title": "Creativity",
+      "subtitle": "Graphic Design",
+      "image": "https://www.freecodecamp.org/news/content/images/size/w2000/2021/09/emily-bernal-v9vII5gV8Lw-unsplash.jpg",
+      "link": "https//:www.google.com"
+    },
+    {
+      "title": "Advertising",
+      "subtitle": "Digital Markteing",
+      "image": "https://d1m75rqqgidzqn.cloudfront.net/wp-data/2020/03/24164357/iStock-974512548.jpg",
+      "link": "https//:www.google.com"
+    },
+    {
+      "title": "Style",
+      "subtitle": "Web Development",
+      "image": "https://fiverr-res.cloudinary.com/image/upload/w_880/f_auto,q_auto/v1/attachments/generic_asset/asset/767bc10a0c44b0a67be1a94aea270205-1609336032121/website%20development-min.jpg",
+      "link": "https//:www.google.com"
+    },
+    {
+      "title": "Coordination",
+      "subtitle": "Project Management",
+      "image": "https://media.istockphoto.com/photos/project-management-with-icons-about-planning-tasks-and-milestones-on-picture-id1135541613?k=20&m=1135541613&s=612x612&w=0&h=rHctItxe3Vi5AGnLfm-Qa_PARqNXaxhlc3TbFYFe3nI=",
+      "link": "https//:www.google.com"
+    }
+  ]
+}

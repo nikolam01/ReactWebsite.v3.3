@@ -1,7 +1,15 @@
-import '../Assets/CSS/PageWrapper.css'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Navbar = () => {
+export const scrollFunction = (sectionName) => {
+  sectionName.current.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start',
+    inline: 'end',
+  })
+}
+
+const Navbar = (props) => {
   return (
     <div>
       <nav
@@ -35,28 +43,63 @@ const Navbar = () => {
             <i className="fas fa-bars"></i>
           </button>
           <div className="collapse navbar-collapse" id="navbarResponsive">
-            <ul className="navbar-nav text-uppercase ml-auto" id="ul-items">
-              <li className="nav-item">
-                <Link className="nav-link js-scroll-trigger" to="/portfolio">
-                  Portfolio
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link js-scroll-trigger" to="/contact">
-                  Contact
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link js-scroll-trigger" to="/about">
-                  About
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link js-scroll-trigger" to="/">
-                  Home
-                </Link>
-              </li>
-            </ul>
+            <div className="navbar-nav text-uppercase ml-auto" id="ul-items">
+              {props.pageType === 'home' ? (
+                <div className="nav-item">
+                  <li
+                    className="nav-link js-scroll-trigger"
+                    onClick={() => scrollFunction(props.sections[0])}
+                    style={{ cursor: 'pointer' }}
+                  >
+                    Portfolio
+                  </li>
+                </div>
+              ) : (
+                <></>
+              )}
+
+              {props.pageType === 'home' ? (
+                <div className="nav-item">
+                  <li
+                    className="nav-link js-scroll-trigger"
+                    onClick={() => scrollFunction(props.sections[1])}
+                    style={{ cursor: 'pointer' }}
+                  >
+                    About
+                  </li>
+                </div>
+              ) : (
+                <></>
+              )}
+
+              {props.pageType === 'home' ? (
+                <div className="nav-item">
+                  <li
+                    className="nav-link js-scroll-trigger"
+                    onClick={() => scrollFunction(props.sections[2])}
+                    style={{ cursor: 'pointer' }}
+                  >
+                    Team
+                  </li>
+                </div>
+              ) : (
+                <></>
+              )}
+
+              {props.pageType === 'home' ? (
+                <div className="nav-item">
+                  <Link className="nav-link js-scroll-trigger" to="/contact">
+                    Contact
+                  </Link>
+                </div>
+              ) : (
+                <div className="nav-item">
+                  <Link className="nav-link js-scroll-trigger" to="/">
+                    Home
+                  </Link>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </nav>
