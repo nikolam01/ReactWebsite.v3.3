@@ -1,14 +1,15 @@
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { Switch, Route } from 'react-router-dom'
+import './App.css'
 
 //components
-import Portfolio from './components/Common/Portfolio'
+import Portfolio from './components/Portfolio/Portfolio'
 
 //pages
-import Home from './components/Pages/Home'
-import Login from './components/Pages/Login'
-import Me from './components/Pages/Me'
-import Contact from './components/Pages/Contact'
+import Home from './pages/Home'
+import Login from './pages/Login'
+import AboutMe from './pages/AboutMe'
+import Contact from './pages/Contact'
 
 const App = () => {
   const authenticate = () => {
@@ -34,7 +35,7 @@ const App = () => {
         <Route exact path="/" component={Home} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/me" component={Me} />
+        <Route exact path="/about-me" component={AboutMe} />
         <Route exact path="/admin" component={Login} />
         <Route path="*" component={Error} />
       </Switch>
