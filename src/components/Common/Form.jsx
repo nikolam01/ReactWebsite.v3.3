@@ -1,8 +1,7 @@
-import React from 'react'
 import '../Assets/CSS/FormNetlify.css'
 import '../Assets/JS/contact'
 
-export default function Form() {
+const Form = () => {
   return (
     <div className="formNetlify">
       <form name="contact" id="formFy" method="post">
@@ -46,3 +45,4 @@ export default function Form() {
     </div>
   )
 }
+export default Form

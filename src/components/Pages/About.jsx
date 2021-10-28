@@ -1,17 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-//Pages
+//components
 import Timeline from '../Common/Timeline'
 import Team from '../Common/Team'
 
-class About extends Component {
-  render() {
-    return (
-      <div>
-        <Timeline />
-        <Team />
-      </div>
-    )
-  }
+const About = () => {
+  return (
+    <div className="about">
+      <Timeline />
+      <Team />
+    </div>
+  )
 }
 export default About

@@ -6,7 +6,6 @@ import image2 from '../Assets/img/background.webp'
 import Portfolio from '../Common/Portfolio'
 import Team from '../Common/Team'
 import Timeline from '../Common/Timeline'
-import Footer from '../Common/Footer'
 
 class Home extends Component {
   constructor(props) {
@@ -35,7 +34,6 @@ class Home extends Component {
         <Portfolio />
         <Timeline />
         <Team />
-        <Footer />
       </div>
     )
   }

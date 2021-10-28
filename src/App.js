@@ -1,38 +1,25 @@
-import React, { Component } from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { useEffect } from 'react'
+import { Switch, Route } from 'react-router-dom'
 
-//Sections
-import PageWrapper from './components/PageWrapper'
-import AdminWrapper from './components/AdminWrapper'
+//wrapper
+import Layout from './components/Layout'
+
+//components
 import Portfolio from './components/Common/Portfolio'
-import Footer from './components/Common/Footer'
-import Form from './components/Common/Form'
 
-//Pages
+//pages
 import Home from './components/Pages/Home'
 import About from './components/Pages/About'
 import Login from './components/Pages/Login'
 import Me from './components/Pages/Me'
+import Contact from './components/Pages/Contact'
 
-class App extends Component {
-  constructor(props) {
-    super(props)
-    this.state = { apiResponse: '' }
+const App = () => {
+  const authenticate = () => {
+    return new Promise((resolve) => setTimeout(resolve, 1000))
   }
-  callAPI() {
-    fetch('http://localhost:3000/testAPI')
-      .then((res) => res.text())
-      .then((res) => this.setState({ apiResponse: res }))
-  }
-  componentWillMount() {
-    this.callAPI()
-  }
-  authenticate() {
-    return new Promise((resolve) => setTimeout(resolve, 1000)) // 1000 ms
-  }
-
-  componentDidMount() {
-    this.authenticate().then(() => {
+  useEffect(() => {
+    authenticate().then(() => {
       const ele = document.getElementById('ipl-progress-indicator')
       if (ele) {
         // fade out
@@ -43,83 +30,22 @@ class App extends Component {
         }, 2000)
       }
     })
-  }
-  render() {
-    return (
-      <Router>
-        <Route
-          path="/admin"
-          render={(props) => (
-            <AdminWrapper>
-              <Login {...props} />
-            </AdminWrapper>
-          )}
-        />
-        <Route
-          exact={true}
-          path="/"
-          render={(props) => (
-            <PageWrapper>
-              <Home {...props} />
-            </PageWrapper>
-          )}
-        />
-        <Route
-          exact={true}
-          path="/footer"
-          render={(props) => (
-            <PageWrapper>
-              <Footer {...props} />
-            </PageWrapper>
-          )}
-        />
-        <Route
-          path="/about"
-          render={(props) => (
-            <PageWrapper>
-              <About {...props} />
-              <Me {...props} />
-              <br></br>
-              <br></br>
-              <br></br>
+  }, [])
 
-              <Footer {...props} />
-            </PageWrapper>
-          )}
-        />
-        <Route
-          path="/contact"
-          render={(props) => (
-            <PageWrapper>
-              <Form />
-            </PageWrapper>
-          )}
-        />
-        <Route
-          path="/portfolio"
-          render={(props) => (
-            <PageWrapper>
-              <Portfolio {...props} />
-              <Footer {...props} />
-            </PageWrapper>
-          )}
-        />
-
-        <Route
-          exact={true}
-          path="/me"
-          render={(props) => (
-            <PageWrapper>
-              <Me {...props} />
-              <br></br>
-              <br></br>
-              <br></br>
-              <Footer {...props} />
-            </PageWrapper>
-          )}
-        />
-      </Router>
-    )
-  }
+  return (
+    <>
+      <Layout>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/me" component={Me} />
+          <Route exact path="/admin" component={Login} />
+          <Route path="*" component={Error} />
+        </Switch>
+      </Layout>
+    </>
+  )
 }
 export default App

@@ -1,6 +1,6 @@
 .formNetlify {
   background-color: rgb(14, 13, 13);
-  background-image: url("../img/map-image.webp");
+  background-image: url('../img/map-image.webp');
   background-repeat: no-repeat;
   background-position: cover !important;
   min-height: 100vh;
@@ -19,10 +19,10 @@
   margin-right: auto;
   width: 70%;
   display: grid;
-  grid-template-areas: "name name msg" "email email msg" "";
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  grid-template-areas: 'name name msg' 'email email msg' '';
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 #formFy #name {
   grid-area: name;
@@ -31,9 +31,9 @@
   font-weight: 400;
   font-size: 18px;
   padding: 1%;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 #formFy #email {
   grid-area: email;
@@ -42,9 +42,9 @@
   font-weight: 400;
   font-size: 18px;
   padding: 1%;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 #formFy #message {
   grid-area: msg;
@@ -60,9 +60,9 @@
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   resize: none;
 }
 #formFy #submitButton {
@@ -84,9 +84,9 @@
   margin-top: 2%;
   justify-content: space-between;
   align-items: flex-end;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 #formFy #submitButton:hover {
   background-color: #f5d311 !important;
@@ -127,7 +127,7 @@
     margin-right: auto;
     width: 100%;
     display: grid;
-    grid-template-areas: "name" "email" "";
+    grid-template-areas: 'name' 'email' '';
   }
   #formFy #name {
     grid-area: name;
@@ -192,7 +192,7 @@
     margin-right: auto;
     width: 100%;
     display: grid;
-    grid-template-areas: "name" "email" "";
+    grid-template-areas: 'name' 'email' '';
   }
   #formFy #name {
     grid-area: name;
@@ -257,11 +257,11 @@
     margin-right: auto;
     width: 100%;
     display: grid;
-    grid-template-areas: "name" "email" "";
+    grid-template-areas: 'name' 'email' '';
   }
   .formNetlify {
     background-color: rgb(14, 13, 13);
-    background-image: url("../img/map-image.webp");
+    background-image: url('../img/map-image.webp');
     background-repeat: no-repeat;
     background-position: center;
     min-height: 120vh;
@@ -337,11 +337,11 @@
     margin-right: auto;
     width: 100%;
     display: grid;
-    grid-template-areas: "name" "email" "";
+    grid-template-areas: 'name' 'email' '';
   }
   .formNetlify {
     background-color: rgb(14, 13, 13);
-    background-image: url("../img/map-image.webp");
+    background-image: url('../img/map-image.webp');
     background-repeat: no-repeat;
     background-position: center;
     height: 150vh;
