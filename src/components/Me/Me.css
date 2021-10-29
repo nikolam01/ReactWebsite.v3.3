@@ -6,9 +6,9 @@
 
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   color: black;
 }
 
@@ -75,7 +75,7 @@ body {
     margin-right: auto;
   }
   #titleMe {
-    margin-top: 20%;
+    margin-top: 30%;
     font-size: 1.8rem;
     margin-right: auto;
     margin-left: auto;

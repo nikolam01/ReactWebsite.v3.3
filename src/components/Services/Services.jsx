@@ -10,12 +10,7 @@ const Services = (props) => {
     setServicesData(data.services)
   }, [servicesData])
   return (
-    <section
-      className="page-section"
-      id="services"
-      style={{ backgroundColor: 'white' }}
-      ref={props.section}
-    >
+    <section className="page-section" id="services" ref={props.section}>
       <div className="container">
         <div className="text-center">
           <h2

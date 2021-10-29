@@ -1,5 +1,4 @@
 import React, { useRef } from 'react'
-
 import image2 from '../assets/img/background.webp'
 
 //components
