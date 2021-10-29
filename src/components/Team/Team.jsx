@@ -8,15 +8,17 @@ const Team = (props) => {
     setTeamData(data.team_members)
   }, [teamData])
   return (
-    <section className="page-section bg-light" id="team" ref={props.section}>
+    <section className="page-section" id="team" ref={props.section}>
       <div className="container">
         <div className="text-center">
-          <h2 className="section-heading text-uppercase">
+          <h2
+            className="section-heading text-uppercase "
+            style={{ marginBottom: '10vh' }}
+          >
             Creator of this website!
           </h2>
         </div>
-        <br></br>
-        <br></br>
+
         <div className="row" id="team">
           {teamData.map((member, index) => {
             return <TeamMembers {...member} key={index} />

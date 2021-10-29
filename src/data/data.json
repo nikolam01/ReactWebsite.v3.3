@@ -77,8 +77,43 @@
       " role": "Web Developer",
       "image": "https://nikola-mirilo-tsx.netlify.app/static/media/Me.e168195c.jpeg",
       "instagram": "https://www.instagram.com/nikola.mirilo/",
-      "facebook": "https://www.facebook.com/nikola.mirilo.5/",
+      "email": "nikola.mirilo@gmail.com",
       "linkedin": "https://www.linkedin.com/in/nikola-mirilo"
+    }
+  ],
+
+  "timeline": [
+    {
+      "liType": "left",
+      "title": "Beginnings",
+      "date": "Jun 2017",
+      "description": "Started learning about programming in Java and C. Later, i started learning web development, especially frontend development.",
+      "image": "https://dev.java/assets/images/java-logo-vert-blk.png",
+      "imageName": "Java Programming"
+    },
+    {
+      "liType": "right",
+      "title": "Created first website",
+      "date": "January 2019",
+      "description": "It was simple website that I made using HTML, CSS and Netlify platform. It was at basic level of coding in HTML and CSS. The only advanced characteristic was responsive design.",
+      "image": "http://www.chicagocomputerclasses.com/wp-content/uploads/2014/04/html5-css31.png",
+      "imageName": "HTML and CSS"
+    },
+    {
+      "liType": "left",
+      "title": "Transition to full stack programming",
+      "date": "December 2020",
+      "description": "Started learning more about backend and server side tools. Numerous libraries and technologies like Node JS, Axios, Mongo DB, etc.",
+      "image": "https://data.appus.software/resources/img/site_section_images/d8dbae64f62cffa8b9747090cae3c49b",
+      "imageName": "Node JS"
+    },
+    {
+      "liType": "right",
+      "title": "Learning more, more, and more",
+      "date": "January 2021",
+      "description": "Expanding knowledge about responsive design, servers, and ReactJS. This website is made using ReactJS and NodeJS.",
+      "image": "https://cdn.iconscout.com/icon/free/png-256/react-1-282599.png",
+      "imageName": "React JS"
     }
   ]
 }

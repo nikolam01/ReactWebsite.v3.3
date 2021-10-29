@@ -9,8 +9,9 @@ const Portfolio = (props) => {
   }, [portfolioData])
   return (
     <section
-      className="page-section bg-light"
+      className="page-section"
       id="portfolio"
+      style={{ backgroundColor: '#ffffff !important' }}
       ref={props.section}
     >
       <div className="container">

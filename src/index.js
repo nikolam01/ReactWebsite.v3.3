@@ -2,14 +2,14 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import { BrowserRouter as Router } from 'react-router-dom'
-import SlideToTop from './components/SlideToTop/SlideToTop'
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <SlideToTop>
+      <ScrollToTop>
         <App />
-      </SlideToTop>
+      </ScrollToTop>
     </Router>
   </React.StrictMode>,
 

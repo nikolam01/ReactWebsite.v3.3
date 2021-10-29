@@ -42,10 +42,10 @@ const TeamMembers = (props) => {
           type="button"
           onClick={(e) => {
             e.preventDefault()
-            window.location.href = `${props.facebook}`
+            window.location.href = `mailto:${props.email}`
           }}
         >
-          <i className="fab fa-facebook-f"></i>
+          <i class="fas fa-envelope" style={{ color: '#000000' }}></i>
         </Link>
         <Link
           className="btn btn-dark btn-social mx-2"
