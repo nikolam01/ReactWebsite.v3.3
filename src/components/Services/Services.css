@@ -5,3 +5,9 @@
 #serviceItem {
   margin-bottom: 0%;
 }
+.service-title {
+  font-size: 1.6rem;
+}
+.service-description {
+  font-size: 1rem;
+}

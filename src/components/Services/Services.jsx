@@ -3,7 +3,7 @@ import SingleService from './SingleService'
 import './Services.css'
 import data from '../../data/data.json'
 
-const Services = () => {
+const Services = (props) => {
   const [servicesData, setServicesData] = useState([])
 
   useEffect(() => {
@@ -14,10 +14,15 @@ const Services = () => {
       className="page-section"
       id="services"
       style={{ backgroundColor: 'white' }}
+      ref={props.section}
     >
       <div className="container">
         <div className="text-center">
-          <h2 className="section-heading text-uppercase mb-5" id="title">
+          <h2
+            className="section-heading text-uppercase"
+            id="title"
+            style={{ marginBottom: '5vh' }}
+          >
             Services
           </h2>
           <br />

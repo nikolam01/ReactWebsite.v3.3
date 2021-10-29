@@ -7,8 +7,8 @@ const SingleService = (props) => {
         <i className="fas fa-circle fa-stack-2x text-primary"></i>
         <i className={`fas ${props.icon} fa-stack-1x fa-inverse`}></i>
       </span>
-      <h4 className="my-3">{props.title}</h4>
-      <p className="text-muted">{props.description}</p>
+      <h4 className="my-3 service-title">{props.title}</h4>
+      <p className="text-muted service-description">{props.description}</p>
     </div>
   )
 }

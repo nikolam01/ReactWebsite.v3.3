@@ -11,12 +11,17 @@ const Portfolio = (props) => {
     <section
       className="page-section"
       id="portfolio"
-      style={{ backgroundColor: '#ffffff !important' }}
+      style={{ backgroundColor: '#ffffff' }}
       ref={props.section}
     >
       <div className="container">
         <div className="text-center mb-5">
-          <h2 className="section-heading text-uppercase">Portfolio</h2>
+          <h2
+            className="section-heading text-uppercase"
+            style={{ marginBottom: '5vh' }}
+          >
+            Portfolio
+          </h2>
         </div>
         <div className="row" style={{ backgroundColor: 'white' }}>
           {portfolioData.map((item, index) => {

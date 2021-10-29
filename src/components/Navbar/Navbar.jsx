@@ -37,10 +37,11 @@ const Navbar = (props) => {
             aria-expanded="false"
             aria-label="Toggle navigation"
             id="menuBtn"
-            style={{ borderRadius: '10px' }}
           >
-            Menu
-            <i className="fas fa-bars"></i>
+            <i
+              class="fas fa-bars"
+              style={{ fontSize: '2rem', color: '#ffffff' }}
+            ></i>
           </button>
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <div className="navbar-nav text-uppercase ml-auto" id="ul-items">
@@ -51,7 +52,7 @@ const Navbar = (props) => {
                     onClick={() => scrollFunction(props.sections[0])}
                     style={{ cursor: 'pointer' }}
                   >
-                    Portfolio
+                    Services
                   </li>
                 </div>
               ) : (
@@ -65,7 +66,7 @@ const Navbar = (props) => {
                     onClick={() => scrollFunction(props.sections[1])}
                     style={{ cursor: 'pointer' }}
                   >
-                    About
+                    Portfolio
                   </li>
                 </div>
               ) : (
@@ -77,6 +78,20 @@ const Navbar = (props) => {
                   <li
                     className="nav-link js-scroll-trigger"
                     onClick={() => scrollFunction(props.sections[2])}
+                    style={{ cursor: 'pointer' }}
+                  >
+                    About
+                  </li>
+                </div>
+              ) : (
+                <></>
+              )}
+
+              {props.pageType === 'home' ? (
+                <div className="nav-item">
+                  <li
+                    className="nav-link js-scroll-trigger"
+                    onClick={() => scrollFunction(props.sections[3])}
                     style={{ cursor: 'pointer' }}
                   >
                     Team

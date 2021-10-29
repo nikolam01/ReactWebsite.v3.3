@@ -49,32 +49,32 @@
       "title": "Creativity",
       "subtitle": "Graphic Design",
       "image": "https://www.freecodecamp.org/news/content/images/size/w2000/2021/09/emily-bernal-v9vII5gV8Lw-unsplash.jpg",
-      "link": "https://github.com/nikolamirilo"
+      "link": "mailto:nikola.mirilo@gmail.com"
     },
     {
       "title": "Advertising",
       "subtitle": "Digital Markteing",
       "image": "https://d1m75rqqgidzqn.cloudfront.net/wp-data/2020/03/24164357/iStock-974512548.jpg",
-      "link": "https://github.com/nikolamirilo"
+      "link": "mailto:nikola.mirilo@gmail.com"
     },
     {
       "title": "Style",
       "subtitle": "Web Development",
       "image": "https://fiverr-res.cloudinary.com/image/upload/w_880/f_auto,q_auto/v1/attachments/generic_asset/asset/767bc10a0c44b0a67be1a94aea270205-1609336032121/website%20development-min.jpg",
-      "link": "https://github.com/nikolamirilo"
+      "link": "https://nba-info.netlify.app/"
     },
     {
       "title": "Coordination",
       "subtitle": "Project Management",
       "image": "https://media.istockphoto.com/photos/project-management-with-icons-about-planning-tasks-and-milestones-on-picture-id1135541613?k=20&m=1135541613&s=612x612&w=0&h=rHctItxe3Vi5AGnLfm-Qa_PARqNXaxhlc3TbFYFe3nI=",
-      "link": "https://github.com/nikolamirilo"
+      "link": "mailto:nikola.mirilo@gmail.com"
     }
   ],
 
   "team_members": [
     {
       "name": "Nikola Mirilo",
-      " role": "Web Developer",
+      "role": "Web Developer",
       "image": "https://nikola-mirilo-tsx.netlify.app/static/media/Me.e168195c.jpeg",
       "instagram": "https://www.instagram.com/nikola.mirilo/",
       "email": "nikola.mirilo@gmail.com",

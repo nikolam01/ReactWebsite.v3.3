@@ -7,17 +7,17 @@
   border-radius: 10px;
   height: fit-content;
   width: fit-content;
-  padding: 1% 1%;
+  padding: 0.7%;
   display: flex;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
   flex-direction: column;
-  background-color: #ffc107 !important;
+  background-color: #ffd107 !important;
   font-size: 18px !important;
 }
 #btnTell:hover {
-  background-color: #f5d311 !important;
+  background-color: #ffe107 !important;
 }
 
 #titleHeader {

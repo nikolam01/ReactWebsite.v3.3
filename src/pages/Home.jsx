@@ -12,13 +12,19 @@ import Team from '../components/Team/Team'
 import Footer from '../components/Footer/Footer'
 
 const Home = () => {
+  const sercicesSection = useRef()
   const portfolioSection = useRef()
   const aboutSection = useRef()
   const teamSection = useRef()
   return (
     <div className="home">
       <Navbar
-        sections={[portfolioSection, aboutSection, teamSection]}
+        sections={[
+          sercicesSection,
+          portfolioSection,
+          aboutSection,
+          teamSection,
+        ]}
         pageType="home"
       />
       <Header
@@ -29,7 +35,7 @@ const Home = () => {
         showButton={true}
         image={image2}
       />
-      <Services />
+      <Services section={sercicesSection} />
       <Portfolio section={portfolioSection} />
       <Timeline section={aboutSection} />
       <Team section={teamSection} />
