@@ -49,6 +49,8 @@ const Navbar = (props) => {
                 <div className="nav-item">
                   <li
                     className="nav-link js-scroll-trigger"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse.show"
                     onClick={() => scrollFunction(props.sections[0])}
                     style={{ cursor: 'pointer' }}
                   >
@@ -63,6 +65,8 @@ const Navbar = (props) => {
                 <div className="nav-item">
                   <li
                     className="nav-link js-scroll-trigger"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse.show"
                     onClick={() => scrollFunction(props.sections[1])}
                     style={{ cursor: 'pointer' }}
                   >
@@ -77,6 +81,8 @@ const Navbar = (props) => {
                 <div className="nav-item">
                   <li
                     className="nav-link js-scroll-trigger"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse.show"
                     onClick={() => scrollFunction(props.sections[2])}
                     style={{ cursor: 'pointer' }}
                   >
@@ -91,6 +97,8 @@ const Navbar = (props) => {
                 <div className="nav-item">
                   <li
                     className="nav-link js-scroll-trigger"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse.show"
                     onClick={() => scrollFunction(props.sections[3])}
                     style={{ cursor: 'pointer' }}
                   >
@@ -103,13 +111,23 @@ const Navbar = (props) => {
 
               {props.pageType === 'home' ? (
                 <div className="nav-item">
-                  <Link className="nav-link js-scroll-trigger" to="/contact">
+                  <Link
+                    className="nav-link js-scroll-trigger"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse.show"
+                    to="/contact"
+                  >
                     Contact
                   </Link>
                 </div>
               ) : (
                 <div className="nav-item">
-                  <Link className="nav-link js-scroll-trigger" to="/">
+                  <Link
+                    className="nav-link js-scroll-trigger"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse.show"
+                    to="/"
+                  >
                     Home
                   </Link>
                 </div>

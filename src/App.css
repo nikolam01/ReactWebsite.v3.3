@@ -387,7 +387,7 @@ body {
     font-size: 16px;
   }
   #menuBtn {
-    margin-top: 2%;
+    margin-top: 0%;
     background-color: #ffc107 !important;
   }
 }
@@ -396,10 +396,12 @@ body {
   #navbarResponsive {
     text-align: right;
   }
+
   form {
     width: 100%;
     display: block;
   }
+
   footer {
     background-color: black;
     padding-top: 5%;
@@ -442,7 +444,7 @@ body {
     font-size: 15px;
   }
   #menuBtn {
-    margin-top: 2%;
+    margin-top: 0% !important;
     background-color: #ffc107 !important;
   }
 }
@@ -496,7 +498,7 @@ body {
     font-size: 14px;
   }
   #menuBtn {
-    margin-top: 2%;
+    margin-top: 0%;
     background-color: transparent !important;
   }
 }
