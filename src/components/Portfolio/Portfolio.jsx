@@ -1,12 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import PortfolioItem from './PortfolioItem'
-import data from '../../data/data.json'
+import { usePortfolio } from '../../context/PortfolioContext'
 
 const Portfolio = (props) => {
-  const [portfolioData, setPortfolioData] = useState([])
-  useEffect(() => {
-    setPortfolioData(data.portfolio)
-  }, [portfolioData])
+  let { portfolioData } = usePortfolio()
   return (
     <section
       className="page-section"

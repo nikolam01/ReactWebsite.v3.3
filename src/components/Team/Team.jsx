@@ -1,12 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import TeamMembers from './TeamMember'
-import data from '../../data/data.json'
+import { useTeam } from '../../context/TeamContext'
 
 const Team = (props) => {
-  const [teamData, setTeamData] = useState([])
-  useEffect(() => {
-    setTeamData(data.team_members)
-  }, [teamData])
+  let { teamData } = useTeam()
   return (
     <section className="page-section" id="team" ref={props.section}>
       <div className="container">

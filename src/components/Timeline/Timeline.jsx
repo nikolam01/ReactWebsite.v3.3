@@ -1,13 +1,9 @@
-import React, { useState, useEffect } from 'react'
-import data from '../../data/data.json'
+import React from 'react'
 import TimelineItem from './TimelineItem'
+import { useTimeline } from '../../context/TimelineContext'
 
 const Timeline = (props) => {
-  const [timelineData, setTimelineData] = useState([])
-
-  useEffect(() => {
-    setTimelineData(data.timeline)
-  }, [timelineData])
+  let { timelineData } = useTimeline()
   return (
     <section className="page-section" id="about" ref={props.section}>
       <div className="container">
