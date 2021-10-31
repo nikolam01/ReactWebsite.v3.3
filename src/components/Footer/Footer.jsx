@@ -16,8 +16,7 @@ const Footer = () => {
               type="button"
               onClick={(e) => {
                 e.preventDefault()
-                window.location.href =
-                  'https://www.instagram.com/nikola.mirilo/'
+                window.location.href = 'https://www.instagram.com/nikola.mirilo/'
               }}
             >
               <i className="fab fa-instagram"></i>
@@ -27,8 +26,7 @@ const Footer = () => {
               type="button"
               onClick={(e) => {
                 e.preventDefault()
-                window.location.href =
-                  'https://www.facebook.com/nikola.mirilo.5/'
+                window.location.href = 'https://www.facebook.com/nikola.mirilo.5/'
               }}
             >
               <i className="fab fa-facebook-f"></i>
@@ -38,8 +36,7 @@ const Footer = () => {
               type="button"
               onClick={(e) => {
                 e.preventDefault()
-                window.location.href =
-                  'https://www.linkedin.com/in/nikola-mirilo'
+                window.location.href = 'https://www.linkedin.com/in/nikola-mirilo'
               }}
             >
               <i className="fab fa-linkedin-in"></i>

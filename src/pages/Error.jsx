@@ -1,8 +1,5 @@
 import React from 'react'
-
-//components
-import Navbar from '../Common/Navbar'
-import Footer from '../Common/Footer'
+import { Navbar, Footer } from '../components'
 
 const Error = () => {
   return (

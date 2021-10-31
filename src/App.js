@@ -2,11 +2,8 @@ import React from 'react'
 import './App.css'
 import { Switch, Route } from 'react-router-dom'
 import { useLoader } from './hooks/useLoader'
-import ScrollToTop from './components/ScrollToTop/ScrollToTop'
-//pages
-import Home from './pages/Home'
-import AboutMe from './pages/AboutMe'
-import Contact from './pages/Contact'
+import { ScrollToTop } from './components'
+import { Home, Contact, AboutMe, Error } from './pages'
 
 const App = () => {
   useLoader()

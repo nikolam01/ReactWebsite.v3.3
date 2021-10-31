@@ -1,9 +1,5 @@
 import React from 'react'
-
-//components
-import Navbar from '../components/Navbar/Navbar'
-import Form from '../components/Form/Form'
-import Footer from '../components/Footer/Footer'
+import { Navbar, Form, Footer } from '../components'
 
 const Contact = () => {
   return (

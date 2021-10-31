@@ -9,34 +9,15 @@ const Form = () => {
         <h1>Contact Me</h1>
         <p>
           <label htmlFor="name">Name</label> <br />
-          <input
-            type="text"
-            id="name"
-            name="name"
-            required
-            placeholder="Enter your name"
-          />
+          <input type="text" id="name" name="name" required placeholder="Enter your name" />
         </p>
         <p>
           <label htmlFor="email">Email</label> <br />
-          <input
-            type="email"
-            id="email"
-            name="email"
-            required
-            placeholder="Enter your email address"
-          />
+          <input type="email" id="email" name="email" required placeholder="Enter your email address" />
         </p>
         <p>
           <label htmlFor="message">Message</label> <br />
-          <textarea
-            id="message"
-            className="form-control"
-            name="message"
-            resize="false"
-            required
-            placeholder="Enter your message"
-          ></textarea>
+          <textarea id="message" className="form-control" name="message" resize="false" required placeholder="Enter your message"></textarea>
         </p>
         <p>
           <input id="submitButton" type="submit" value="SUBMIT" />

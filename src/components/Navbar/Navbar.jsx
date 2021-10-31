@@ -12,10 +12,7 @@ export const scrollFunction = (sectionName) => {
 const Navbar = (props) => {
   return (
     <div>
-      <nav
-        className="navbar navbar-expand-lg navbar-dark fixed-top"
-        id="mainNav"
-      >
+      <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div className="container" id="navContainer">
           <li
             className="navbar-brand js-scroll-trigger"
@@ -38,10 +35,7 @@ const Navbar = (props) => {
             aria-label="Toggle navigation"
             id="menuBtn"
           >
-            <i
-              class="fas fa-bars"
-              style={{ fontSize: '2rem', color: '#ffffff' }}
-            ></i>
+            <i class="fas fa-bars" style={{ fontSize: '2rem', color: '#ffffff' }}></i>
           </button>
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <div className="navbar-nav text-uppercase ml-auto" id="ul-items">
@@ -107,6 +101,32 @@ const Navbar = (props) => {
                 </div>
               ) : (
                 <></>
+              )}
+
+              {props.pageType === 'home' ? (
+                <></>
+              ) : props.pageType === 'contact' ? (
+                <div className="nav-item">
+                  <Link
+                    className="nav-link js-scroll-trigger"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse.show"
+                    to="/about-me"
+                  >
+                    About Me
+                  </Link>
+                </div>
+              ) : (
+                <div className="nav-item">
+                  <Link
+                    className="nav-link js-scroll-trigger"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse.show"
+                    to="/contact"
+                  >
+                    Contact
+                  </Link>
+                </div>
               )}
 
               {props.pageType === 'home' ? (

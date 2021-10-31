@@ -24,9 +24,7 @@ const PortfolioItem = (props) => {
         </div>
         <div className="portfolio-caption">
           <div className="portfolio-caption-heading">{props.title}</div>
-          <div className="portfolio-caption-subheading text-muted">
-            {props.subtitle}
-          </div>
+          <div className="portfolio-caption-subheading text-muted">{props.subtitle}</div>
         </div>
       </div>
     </div>
