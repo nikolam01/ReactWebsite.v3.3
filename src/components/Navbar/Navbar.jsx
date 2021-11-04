@@ -8,7 +8,6 @@ export const scrollFunction = (sectionName) => {
     inline: 'end',
   })
 }
-
 const Navbar = (props) => {
   return (
     <div>
