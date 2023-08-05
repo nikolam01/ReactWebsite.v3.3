@@ -7,7 +7,7 @@
   border-radius: 10px;
   height: fit-content;
   width: fit-content;
-  padding: 0.7%;
+  padding: 1%;
   display: flex;
   justify-content: center;
   margin-left: auto;
@@ -21,13 +21,13 @@
 }
 
 #titleHeader {
-  text-shadow: 8px -8px 10px rgba(255, 255, 255, 0.07),
-    -30px 30px 30px rgba(0, 0, 0, 0.2), -10px 10px 10px rgba(0, 0, 0, 0.35);
+  text-shadow: 8px -8px 10px rgba(255, 255, 255, 0.07), -30px 30px 30px rgba(0, 0, 0, 0.2),
+    -10px 10px 10px rgba(0, 0, 0, 0.35);
   margin-top: 0%;
 }
 #subtitleHeader {
-  text-shadow: 8px -8px 10px rgba(255, 255, 255, 0.07),
-    -30px 30px 30px rgba(0, 0, 0, 0.2), -10px 10px 10px rgba(0, 0, 0, 0.35);
+  text-shadow: 8px -8px 10px rgba(255, 255, 255, 0.07), -30px 30px 30px rgba(0, 0, 0, 0.2),
+    -10px 10px 10px rgba(0, 0, 0, 0.35);
   margin-bottom: 7%;
 }
 #headerImg {

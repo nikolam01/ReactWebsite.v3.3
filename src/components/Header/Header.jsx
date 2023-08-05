@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './Header.css'
+import { scrollFunction } from '../Navbar/Navbar'
 
 const Header = (props) => {
   return (
@@ -14,9 +14,15 @@ const Header = (props) => {
             {props.subtitle}
           </div>
           {props.showButton && (
-            <Link className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" id="btnTell" to={props.link}>
+            <button
+              className="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+              id="btnTell"
+              onClick={() => {
+                scrollFunction(props.section)
+              }}
+            >
               {props.buttonText}
-            </Link>
+            </button>
           )}
         </div>
       </div>
